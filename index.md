@@ -1,7 +1,9 @@
 ---
 layout: home
-title: "My journey in a nutshell"
+title: ""
 ---
+
+# Hi, I'm Dyutideepta! Here is my journey in a nutshell.
 
 🌌 **Data Physicist** working at the intersection of AI, imaging, and innovation.  
 🚀 From lunar rille detection and fluid mechanics to health-tech UX and encrypted QR systems.
