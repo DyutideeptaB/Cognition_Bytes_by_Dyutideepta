@@ -21,6 +21,11 @@ title: ""
 - [🔐 Encrypted QR Generator](./projects/qr-encryption.html)  
   Industrial-grade Python toolkit for data tagging & visual security
 
+### 🧠 Blogs
+
+- [💡 Why Physics Matters in AI](/physics-in-ai/)  
+  
+
 ---
 
 More coming soon: medical imaging, motion tracking, vision pipelines.
