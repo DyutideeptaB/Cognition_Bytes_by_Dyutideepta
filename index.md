@@ -23,7 +23,7 @@ title: ""
 
 ### 🧠 Blogs
 
-- [💡 Why Physics Matters in AI](/physics-in-ai/)  
+- [💡 Why Physics Matters in AI](/blog/physics-in-ai/)
   
 
 ---
