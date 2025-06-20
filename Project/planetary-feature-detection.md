@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "AI for Lunar Sinuous Rille Detection"
 permalink: /Project/planetary-feature-detection/
 ---
+# AI for Lunar Sinuous Rille Detection
 
 ### Overview  
 A MATLAB + CNN-based pipeline for detecting volcanic lunar channels from KAGUYA MSI data.
