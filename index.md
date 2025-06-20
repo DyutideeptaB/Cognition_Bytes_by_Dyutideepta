@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Hi, I'm Dyutideepta"
+title: "My journey in a nutshell"
 ---
 
 🌌 **Data Physicist** working at the intersection of AI, imaging, and innovation.  
