@@ -14,22 +14,9 @@ A MATLAB + CNN-based pipeline for detecting volcanic lunar channels from KAGUYA 
 - **Required Platform**: MATLAB® Desktop or MATLAB® Online™
 
 ### 📦 Required Toolboxes / Libraries
-| Toolbox | Provider | First Release |
-|--------|----------|---------------|
-| Curve Fitting Toolbox™ | MathWorks | 2001 |
-| Deep Learning Toolbox™ | MathWorks | 2013 |
-| Image Processing Toolbox™ | MathWorks | 1994 |
-| Optimization Toolbox™ | MathWorks | 1990 |
-| Signal Processing Toolbox™ | MathWorks | 1987 |
-| Statistics & Machine Learning Toolbox™ | MathWorks | 1992 |
-| Symbolic Math Toolbox™ | MathWorks | 1997 |
-| Text Analytics Toolbox™ | MathWorks | 2019 |
-| Parallel Computing Toolbox™ | MathWorks | 2004 |
-| MATLAB® Online™ | MathWorks | 2024 |
-| Simulink® Online™ | MathWorks | 1984 |
+| Curve Fitting Toolbox™ | Deep Learning Toolbox™ | Image Processing Toolbox™ | Optimization Toolbox™ | Signal Processing Toolbox™ | Statistics & Machine Learning Toolbox™ | Symbolic Math Toolbox™ | Text Analytics Toolbox™ | Parallel Computing Toolbox™ | MATLAB® Online™ | Simulink® Online™ |
 
-### Tools  
-- MATLAB R2023a, Deep Learning Toolbox, GUI
+### Specifics  
 - Spectral data preprocessing
 - Grad-CAM visualisation
 
