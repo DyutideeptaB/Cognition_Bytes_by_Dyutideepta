@@ -22,10 +22,4 @@ title: ""
 
 ---
 
-### 🧠 Blogs
-
-- 💡 [Why Physics Matters in AI](/blog/physics-in-ai/)
-  
----
-
 More coming soon: medical imaging, motion tracking, vision pipelines.
