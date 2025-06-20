@@ -1,6 +1,7 @@
 ---
 Type: MATLAB Project
 Project: "AI for Lunar Sinuous Rille Detection"
+permalink: /Project/planetary-feature-detection/
 ---
 
 ### Overview  
