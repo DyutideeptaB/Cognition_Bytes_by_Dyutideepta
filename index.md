@@ -10,8 +10,7 @@ title: ""
 
 [🔗 LinkedIn](https://www.linkedin.com/in/dyutideepta-banerjee) | [📂 GitHub](https://github.com/DyutideeptaB) | [📄 View My CV](https://dyutideeptab.github.io/Cognition_Bytes_by_Dyutideepta/assets/DyutideeptaBanerjee_CV.pdf)
 
-
-
+---
 
 ### 🌟 Selected Projects
 
@@ -21,11 +20,12 @@ title: ""
 - [🔐 Encrypted QR Generator](./projects/qr-encryption.html)  
   Industrial-grade Python toolkit for data tagging & visual security
 
+---
+
 ### 🧠 Blogs
 
-- [💡 Why Physics Matters in AI](/blog/physics-in-ai/)
+- 💡 [Why Physics Matters in AI](/blog/physics-in-ai/)
   
-
 ---
 
 More coming soon: medical imaging, motion tracking, vision pipelines.
