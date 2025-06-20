@@ -1,6 +1,5 @@
 ---
-layout: page
-title: ""
+layout: plain
 permalink: /Project/planetary-feature-detection/
 ---
 # AI for Lunar Sinuous Rille Detection
