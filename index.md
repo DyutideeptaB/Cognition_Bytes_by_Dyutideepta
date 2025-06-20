@@ -10,7 +10,7 @@ title: "Hi, I'm Dyutideepta"
 
 ### 🌟 Selected Projects
 
-- [🛰️ AI for Lunar Sinuous Rilles](./projects/sinuous-rilles.html)  
+- [🛰️ AI for Lunar Sinuous Rilles](./Project/planetary-feature-detection.html)  
   Deep learning for planetary feature detection with GUI & spectral imaging
 
 - [🔐 Encrypted QR Generator](./projects/qr-encryption.html)  
