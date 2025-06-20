@@ -8,7 +8,8 @@ title: ""
 🌌 **Data Physicist** working at the intersection of AI, imaging, and innovation.  
 🚀 From lunar rille detection and fluid mechanics to health-tech UX and encrypted QR systems.
 
-[🔗 LinkedIn](https://www.linkedin.com/in/dyutideepta-banerjee) | [📂 GitHub](https://github.com/DyutideeptaB) | [📄 CV PDF](https://github.com/DyutideeptaB/Cognition_Bytes_by_Dyutideepta/blob/75a8e17a5f4011c4ee972218a361b9d321c917fd/DyutideeptaBanerjee_CV.pdf)
+[🔗 LinkedIn](https://www.linkedin.com/in/dyutideepta-banerjee) | [📂 GitHub](https://github.com/DyutideeptaB) | [📄 View My CV (PDF with working links)](https://raw.githubusercontent.com/DyutideeptaB/Cognition_Bytes_by_Dyutideepta/assets/Dyutideepta_CV.pdf)
+
 
 ### 🌟 Selected Projects
 
