@@ -8,7 +8,6 @@ title: ""
 🌌 **Data Physicist** working at the intersection of AI, imaging, and innovation.  
 🚀 From lunar rille detection and fluid mechanics to health-tech UX and encrypted QR systems.
 
-
 <div style="display: flex; justify-content: space-between; align-items: center; max-width: 800px; margin: 10px auto; font-size: 0.95em;">
   
   <a href="https://www.linkedin.com/in/dyutideepta-banerjee" target="_blank" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
@@ -22,15 +21,15 @@ title: ""
   </a>
 
   <div style="display: flex; align-items: center;">
-    <span style="font-size: 18px; margin-right: 6px;">📄</span>
+    <a href="https://dyutideeptab.github.io/Cognition_Bytes_by_Dyutideepta/assets/DyutideeptaBanerjee_CV.pdf" target="_blank" style="margin-right: 6px; text-decoration: none;">
+      <span style="font-size: 18px;">📄</span>
+    </a>
     <a href="https://dyutideeptab.github.io/Cognition_Bytes_by_Dyutideepta/assets/DyutideeptaBanerjee_CV.pdf" target="_blank" style="text-decoration: none; color: inherit;">
       View My CV
     </a>
   </div>
 
 </div>
-
-
 
 
 ---
