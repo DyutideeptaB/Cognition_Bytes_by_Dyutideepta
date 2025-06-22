@@ -4,7 +4,7 @@ title: "Why Physics Matters in AI"
 permalink: /blog/physics-in-ai/
 ---
 
-💡 *How can a physicist’s mindset shape the future of artificial intelligence? Let’s dive into why Physics matters, even more in the age of Data.*
+💡 *How can a Physicist’s mindset shape the future of Artificial Intelligence? Let’s dive into why Physics matters, even more in the age of Data.*
 
 ---
 
