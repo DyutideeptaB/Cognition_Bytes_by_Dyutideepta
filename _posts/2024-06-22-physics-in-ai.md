@@ -72,4 +72,4 @@ Let’s build not just deeper, but smarter systems.
 
 ---
 
-📬 *Have thoughts on this? I’d love to hear how physics influences your work in AI. Drop me a message or connect on [LinkedIn](https://www.linkedin.com/in/dyutideepta-banerjee).*
+📬 *Have thoughts on this? I’d love to hear how Physics influences your work in AI. Drop me a message or connect on [LinkedIn](https://www.linkedin.com/in/dyutideepta-banerjee).*
