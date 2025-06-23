@@ -54,7 +54,7 @@ As someone trained in Physics and working in AI:
 Emerging approaches like:
 - **Physics-Informed Neural Networks (PINNs)** are a cutting-edge approach that blends neural networks with the governing equations of Physics ([see Raissi et al., 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307125)). This hybridisation enables models to generalise better and remain physically plausible, even when data is scarce or noisy.
 - **Hybrid models (AI + differential equations)** ([see Schweidtmann et al., 2024](https://www.sciencedirect.com/science/article/pii/S2772508123000546)) combine machine learning with Physics-based equations (like fluid dynamics or motion laws) to create AI systems that respect real-world constraints, resulting in more interpretable and reliable predictions than pure data-driven models.
-- **Simulation-to-vision pipelines** use physics-based simulations (e.g., virtual environments mimicking gravity or lighting) to generate synthetic training data for computer vision systems, improving their ability to analyse real-world images/videos while reducing dependency on scarce experimental data.
+- **Simulation-to-vision pipelines** utilise physics-based simulations (e.g., virtual environments that mimic gravity or lighting) to generate synthetic training data for computer vision systems, thereby improving their ability to analyse real-world images and videos while reducing dependency on scarce experimental data.
 
 All reflect the same idea: **AI grounded in Physical laws** is more robust, interpretable, and transferable across domains.
 
@@ -66,7 +66,7 @@ In a world flooded with Data, Physics helps us ask better questions.
 
 Whether we’re modelling space, health, or motion, AI needs anchors. Physics provides those anchors.
 
-If you’re a Physicist exploring AI, don’t think you’re behind. Think of yourself as someone who understands the hidden symmetries in both reality and reasoning.
+If you’re a Physicist venturing into AI, recognise the unique superpower you bring: the ability to uncover hidden symmetries in both reality and reasoning.
 
 Let’s build not just deeper, but smarter systems.
 
