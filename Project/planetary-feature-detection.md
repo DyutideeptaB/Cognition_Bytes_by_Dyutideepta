@@ -23,10 +23,11 @@ A MATLAB + CNN-based pipeline for detecting volcanic lunar sinuous rilles from K
 > >95% accuracy  
 > Used in MSc dissertation & presented at Max Planck Institute & European Lunar Symposium
 
-<div style="display: flex; justify-content: space-between; align-items: center; max-width: 800px; margin: 10px auto; font-size: 0.95em;">
-  <a href="[https://github.com/DyutideeptaB/AI-for-Sinuous-Detection]" target="_blank" style="text-decoration: none; color: #007bff; display: flex; align-items: center;">
+<div style="display: flex; justify-content: flex-start; align-items: center; max-width: 800px; margin: 10px auto; font-size: 0.95em;">
+  <a href="https://github.com/DyutideeptaB/AI-for-Sinuous-Detection" target="_blank" style="text-decoration: none; color: #007bff; display: flex; align-items: center;">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="20" height="20" style="margin-right: 6px;">
     View GitHub Repository
   </a>
 </div>
+
 
