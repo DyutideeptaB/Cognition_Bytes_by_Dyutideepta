@@ -26,4 +26,10 @@ A Python-based suite of algorithms for generating secure and customised QR codes
 > Industrial freelance project involving secure QR codes for pharmaceuticals and fashion packaging  
 > Emphasis on real-world deployability and readability under scanner-specific constraints
 
-[🔗 View GitHub Repository](https://github.com/DyutideeptaB/Encrypted-QR-generator_with_Decryption-Algorithm)
+
+<div style="display: flex; justify-content: space-between; align-items: center; max-width: 800px; margin: 10px auto; font-size: 0.95em;">
+  <a href="https://github.com/DyutideeptaB/Encrypted-QR-generator_with_Decryption-Algorithm" target="_blank" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="20" height="20" style="margin-right: 6px;">
+    View GitHub Repository
+  </a>
+</div>
