@@ -36,7 +36,7 @@ Here’s where physics steps in:
 
 ---
 
-### 🌌 My Experience: From Feature Detection to Motion Analysis
+### 💼 My Experience: From Feature Detection to Motion Analysis
 
 As someone trained in Physics and working in AI:
 
@@ -45,11 +45,11 @@ As someone trained in Physics and working in AI:
 - I built and analysed **bristlebots**, tiny motorised robots whose behaviour emerges from vibrational dynamics—modelling their motion and control across collective systems, and grounding robotics in fundamental **mechanical principles**.
 - Even in health-tech and industrial vision, I bring physics intuition to define meaningful features, not just extract statistical patterns.
 
-🧠 **My takeaway**: When you understand *why* things behave the way they do, AI becomes not just predictive, but explanatory.
+🧮 **My takeaway**: When you understand *why* things behave the way they do, AI becomes not just predictive, but explanatory.
 
 ---
 
-### 🔬 Physics-Informed AI: The Future Is Hybrid
+### 🧩 Physics-Informed AI: The Future Is Hybrid
 
 Emerging approaches like:
 - **Physics-Informed Neural Networks (PINNs)** are a cutting-edge approach that blends neural networks with the governing equations of Physics ([see Raissi et al., 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307125)). This hybridisation enables models to generalise better and remain physically plausible, even when data is scarce or noisy.
@@ -72,4 +72,4 @@ Let’s build not just deeper, but smarter systems.
 
 ---
 
-📬 *Have thoughts on this? I’d love to hear how Physics influences your work in AI. Drop me a message or connect on [LinkedIn](https://www.linkedin.com/in/dyutideepta-banerjee).*
+✍️ *Have thoughts on this? I’d love to hear how Physics influences your work in AI. Drop me a message or connect on [LinkedIn](https://www.linkedin.com/in/dyutideepta-banerjee).*
