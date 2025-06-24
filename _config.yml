@@ -3,6 +3,10 @@ title: Congnition Bytes by Dyutideepta
 description: Physics-Informed AI | Vision Systems | Cross-Disciplinary Innovation
 markdown: kramdown
 
+collections:
+  posts:
+    output: true
+
 nav:
   - title: Home
     url: /
