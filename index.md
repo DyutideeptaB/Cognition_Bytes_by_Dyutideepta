@@ -3,6 +3,14 @@ layout: home
 title: ""
 ---
 
+<style>
+/* Hides the Subscribe via RSS link */
+a[href$="feed.xml"] {
+  display: none !important;
+}
+</style>
+
+
 # Hi, I'm Dyutideepta! Here is my journey in a nutshell.
 
 🌌 **Data Physicist** working at the intersection of AI, imaging, and innovation.  
@@ -48,6 +56,8 @@ More coming soon: medical imaging, motion tracking, vision pipelines.
 
 ---
 
+### 📬 Stay Updated
+
 <a href="https://blogtrottr.com/?subscribe=http://dyutideepta.is-a.dev/feed.xml" target="_blank">
-  📬 Subscribe via Email for the latest updates
+  Subscribe via Email for the latest updates
 </a>
