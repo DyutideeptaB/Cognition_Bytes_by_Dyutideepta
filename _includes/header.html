@@ -1,0 +1,5 @@
+<nav class="site-nav">
+  {% for item in site.nav %}
+    <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+  {% endfor %}
+</nav>
