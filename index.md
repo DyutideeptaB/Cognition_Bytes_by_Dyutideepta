@@ -39,7 +39,7 @@ title: ""
 - [🛰️ AI for Lunar Sinuous Rilles](./Project/planetary-feature-detection/planetary-feature-detection.md)  
   Deep learning for planetary feature detection with GUI & spectral imaging
 
-- [🔐 Encrypted QR generator with Decryption algorithm](./Project/qr_generator_algorithms/)  
+- [🔐 Encrypted QR generator with Decryption algorithm](./Project/qr_generator_algorithms/qr_generator_algorithms.md)  
   Industrial-grade Python toolkit for data tagging & visual security
 
 ---
