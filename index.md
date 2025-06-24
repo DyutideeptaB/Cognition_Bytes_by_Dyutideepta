@@ -45,3 +45,16 @@ title: ""
 ---
 
 More coming soon: medical imaging, motion tracking, vision pipelines.
+
+---
+
+### 📝 Recent Blog Post
+
+<ul>
+  {% for post in site.posts limit:1 %}
+    <li>
+      <strong>{{ post.date | date: "%b %d, %Y" }}</strong> — 
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
