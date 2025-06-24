@@ -17,7 +17,7 @@ Physics teaches you how to **think**, not just how to compute. At its core, Phys
 
 These qualities are extremely valuable in AI, especially when:
 - You're working with **noisy real-world data**
-- You want to build **interpretable and generalizable models**
+- You want to build **interpretable and generalisable models**
 - You need to go beyond “black-box” pattern fitting
 
 ---
@@ -43,7 +43,7 @@ As someone trained in Physics and working in AI:
 - I’ve built deep learning models to detect **sinuous rilles** (lunar lava tubes) from **multispectral satellite imagery**, combining morphological geosurface analysis with the power of pattern recognition.
 - In my **fluid mechanics** experiments, I verified **Reynolds number–dependent drag behaviour** through motion tracking and **trajectory analysis** using Physics to validate and reinterpret real-world observations. 
 - I built and analysed **bristlebots**, tiny motorised robots whose behaviour emerges from vibrational dynamics—modelling their motion and control across collective systems, and grounding robotics in fundamental **mechanical principles**.
-- Even in health-tech and industrial vision, I bring physics intuition to define meaningful features, not just extract statistical patterns.
+- Even in health-tech and industrial vision, I bring Physics intuition to define meaningful features, not just extract statistical patterns.
 
 🧮 **My takeaway**: When you understand *why* things behave the way they do, AI becomes not just predictive, but explanatory.
 
@@ -54,7 +54,7 @@ As someone trained in Physics and working in AI:
 Emerging approaches like:
 - **Physics-Informed Neural Networks (PINNs)** are a cutting-edge approach that blends neural networks with the governing equations of Physics ([see Raissi et al., 2019](https://www.sciencedirect.com/science/article/pii/S0021999118307125)). This hybridisation enables models to generalise better and remain physically plausible, even when data is scarce or noisy.
 - **Hybrid models (AI + differential equations)** ([see Schweidtmann et al., 2024](https://www.sciencedirect.com/science/article/pii/S2772508123000546)) combine machine learning with Physics-based equations (like fluid dynamics or motion laws) to create AI systems that respect real-world constraints, resulting in more interpretable and reliable predictions than pure data-driven models.
-- **Simulation-to-vision pipelines** utilise physics-based simulations (e.g., virtual environments that mimic gravity or lighting) to generate synthetic training data for computer vision systems, thereby improving their ability to analyse real-world images and videos while reducing dependency on scarce experimental data.
+- **Simulation-to-vision pipelines** utilise Physics-based simulations (e.g., virtual environments that mimic gravity or lighting) to generate synthetic training data for computer vision systems, thereby improving their ability to analyse real-world images and videos while reducing dependency on scarce experimental data.
 
 All reflect the same idea: **AI grounded in Physical laws** is more robust, interpretable, and transferable across domains.
 
