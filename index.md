@@ -4,8 +4,8 @@ title: ""
 ---
 
 <style>
-/* Hides the Subscribe via RSS link */
-a[href$="feed.xml"] {
+/* Stronger CSS targeting the unwanted RSS link */
+.feed-link, a[href*="feed.xml"] {
   display: none !important;
 }
 </style>
@@ -56,8 +56,9 @@ More coming soon: medical imaging, motion tracking, vision pipelines.
 
 ---
 
-### 📬 Stay Updated
+---
 
-<a href="https://blogtrottr.com/?subscribe=http://dyutideepta.is-a.dev/feed.xml" target="_blank">
-  Subscribe via Email for the latest updates
-</a>
+### 🔔 Stay Updated
+
+[📬 Subscribe via Email for the latest updates](https://blogtrottr.com/?subscribe=http://dyutideepta.is-a.dev/feed.xml)
+
