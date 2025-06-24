@@ -1,7 +1,9 @@
 ---
 layout: page
-title: "QR Code Generator Algorithms"
+title: ""
 ---
+
+# QR Code Generator Algorithms
 
 ### Overview  
 A Python-based suite of algorithms for generating secure and customised QR codes with enhanced features such as dynamic content updates, visual watermarks, and anti-copy steganographic elements. Designed for industrial applications including packaging, inventory management, and product authenticity verification.
