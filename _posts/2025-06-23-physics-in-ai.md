@@ -42,7 +42,7 @@ As someone trained in Physics and working in AI:
 
 - I’ve built deep learning models to detect **sinuous rilles** (lunar lava tubes) from **multispectral satellite imagery**, combining morphological geosurface analysis with the power of pattern recognition.
 - In my **fluid mechanics** experiments, I verified **Reynolds number–dependent drag behaviour** through motion tracking and **trajectory analysis** using Physics to validate and reinterpret real-world observations. 
-- I built and analysed **bristlebots**, tiny motorised robots whose behaviour emerges from vibrational dynamics—modelling their motion and control across collective systems, and grounding robotics in fundamental **mechanical principles**.
+- I built and analysed **bristlebots**, tiny motorised robots whose behaviour emerges from vibrational dynamics-modelling their motion and control across collective systems, and grounding robotics in fundamental **mechanical principles**.
 - Even in health-tech and industrial vision, I bring Physics intuition to define meaningful features, not just extract statistical patterns.
 
 🧮 **My takeaway**: When you understand *why* things behave the way they do, AI becomes not just predictive, but explanatory.
