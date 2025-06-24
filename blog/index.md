@@ -1,15 +1,12 @@
 ---
-layout: home
+layout: page
 title: Blog
 permalink: /blog/
 ---
 
-<ul>
+# 📚 Blog Posts
+
 {% for post in site.posts %}
-  <li>
-    <strong>{{ post.date | date: "%b %d, %Y" }}</strong> — 
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
+- **{{ post.date | date: "%b %d, %Y" }}** — [{{ post.title }}]({{ post.url }})
 {% endfor %}
-</ul>
 
