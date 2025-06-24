@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Blog
+title: ""
 permalink: /blog/
 ---
 
-# 📚 Blog Posts
+# 📚 View my Blogs
 
 {% for post in site.posts %}
 - **{{ post.date | date: "%b %d, %Y" }}** — [{{ post.title }}]({{ post.url }})
