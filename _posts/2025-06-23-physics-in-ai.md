@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why Physics Matters in AI"
+date: 2025-06-23
 permalink: /blog/physics-in-ai/
 ---
 
