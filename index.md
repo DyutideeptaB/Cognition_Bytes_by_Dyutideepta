@@ -56,9 +56,9 @@ More coming soon: medical imaging, motion tracking, vision pipelines.
 
 ---
 
----
-
 ### 🔔 Stay Updated
 
-[📬 Subscribe via Email for the latest updates](https://blogtrottr.com/?subscribe=http://dyutideepta.is-a.dev/feed.xml)
+[📫 Subscribe via Email](https://blogtrottr.com/?subscribe=http://dyutideepta.is-a.dev/feed.xml)
+
+---
 
