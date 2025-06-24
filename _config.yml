@@ -1,3 +1,14 @@
 theme: minima
 title: Congnition Bytes by Dyutideepta
 description: Physics-Informed AI | Vision Systems | Cross-Disciplinary Innovation
+markdown: kramdown
+
+nav:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /Project/
+  - title: Blog
+    url: /blog/
+  - title: CV
+    url: /assets/DyutideeptaBanerjee_CV.pdf
