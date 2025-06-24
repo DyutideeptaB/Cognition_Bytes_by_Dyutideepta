@@ -33,4 +33,3 @@ A Python-based suite of algorithms for generating secure and customised QR codes
     View GitHub Repository
   </a>
 </div>
-
