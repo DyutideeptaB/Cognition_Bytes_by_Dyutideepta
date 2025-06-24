@@ -4,7 +4,7 @@ title: ""
 ---
 
 <style>
-/* Stronger CSS targeting the unwanted RSS link */
+/* Hide unwanted RSS link injected by theme */
 .feed-link, a[href*="feed.xml"] {
   display: none !important;
 }
@@ -52,13 +52,13 @@ title: ""
 
 ---
 
-More coming soon: medical imaging, motion tracking, vision pipelines.
-
----
-
 ### 🔔 Stay Updated
 
 [📫 Subscribe via Email](https://blogtrottr.com/?subscribe=http://dyutideepta.is-a.dev/feed.xml)
+
+---
+
+More coming soon: medical imaging, motion tracking, vision pipelines.
 
 ---
 
