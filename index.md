@@ -31,7 +31,6 @@ title: ""
 
 </div>
 
-
 ---
 
 ### 🌟 Selected Projects
