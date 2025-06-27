@@ -2,7 +2,7 @@ theme: minima
 title: Congnition Bytes by Dyutideepta
 description: Physics-Informed AI | Vision Systems | Cross-Disciplinary Innovation
 markdown: kramdown
-baseurl: "/Cognition_Bytes_by_Dyutideepta"
+
 collections:
   posts:
     output: true
