@@ -42,7 +42,7 @@ Here’s where physics steps in:
 </p>
 
 <p align="center" style="font-size: 0.9em; margin-top: -0.5em;">
-  <em>Illustration of Physics-Informed Neural Network for Harmonic Oscillator problem.</em><br>
+  <em>Animation of Physics-Informed Neural Network for Harmonic Oscillator problem.</em><br>
   Source: <a href="https://www.reddit.com/r/learnmachinelearning/comments/1eaxxxi/physics_informed_neural_networks/" target="_blank">Reddit - r/learnmachinelearning</a>
 </p>
 
