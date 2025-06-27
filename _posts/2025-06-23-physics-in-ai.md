@@ -35,14 +35,18 @@ Here’s where physics steps in:
 | Lack of explainability | Physics provides causality and meaning |
 | Poor generalization | Physics-based priors improve extrapolation |
 
-<figure style="margin: 0 auto; text-align: center; max-width: 100%;">
-  <img src="/assets/images/physics-in-ai.png" 
-       alt="Pendulum Oscillation to Neural Network" 
-       width="500" style="display: block; margin: 0 auto;"/>
-  <figcaption style="font-size: 0.9em; color: #666;">From oscillations to neural networks: a cartoonic simulation of Physics-inspired AI.</figcaption>
-</figure>
+<p align="center">
+  <img src="/assets/images/illustration-physics-and-ai.gif"
+       alt="PINN Harmonic Oscillator"
+       style="width: 500px; height: auto;">
+</p>
 
-<div style="margin-top: 30px;"></div>
+<p align="center" style="font-size: 0.9em; margin-top: -0.5em;">
+  <em>Illustration of Physics-Informed Neural Network for Harmonic Oscillator problem.</em><br>
+  Source: <a href="https://www.reddit.com/r/learnmachinelearning/comments/1eaxxxi/physics_informed_neural_networks/" target="_blank">Reddit - r/learnmachinelearning</a>
+</p>
+
+<div style="margin-top: 50px;"></div>
 
 ---
 
