@@ -21,7 +21,6 @@ These qualities are extremely valuable in AI, especially when:
 - You want to build **interpretable and generalisable models**
 - You need to go beyond “black-box” pattern fitting
 
-<div style="margin-top: 30px;"></div>
 ---
 
 ### 🔍 From Data to Structure: Why AI Needs Physics
@@ -42,6 +41,8 @@ Here’s where physics steps in:
        width="500" style="display: block; margin: 0 auto;"/>
   <figcaption style="font-size: 0.9em; color: #666;">From oscillations to neural networks: a cartoonic simulation of Physics-inspired AI.</figcaption>
 </figure>
+
+<div style="margin-top: 30px;"></div>
 
 ---
 
