@@ -35,9 +35,11 @@ Here’s where physics steps in:
 | Lack of explainability | Physics provides causality and meaning |
 | Poor generalization | Physics-based priors improve extrapolation |
 
-<figure style="text-align: center;">
-  <img src="/assets/images/physics-in-ai.png" alt="Pendulum Oscillation to Neural Network" width="500" height="400"/>
-  <figcaption>From oscillations to neural networks: a cartoonic simulation of Physics inspired AI.</figcaption>
+<figure style="margin: 0 auto; text-align: center; max-width: 100%;">
+  <img src="/assets/images/physics-in-ai.png" 
+       alt="Pendulum Oscillation to Neural Network" 
+       width="500" style="display: block; margin: 0 auto;"/>
+  <figcaption style="font-size: 0.9em; color: #666;">From oscillations to neural networks: a cartoonic simulation of Physics-inspired AI.</figcaption>
 </figure>
 
 ---
