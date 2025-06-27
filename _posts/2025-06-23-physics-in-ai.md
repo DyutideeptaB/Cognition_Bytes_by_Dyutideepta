@@ -21,6 +21,7 @@ These qualities are extremely valuable in AI, especially when:
 - You want to build **interpretable and generalisable models**
 - You need to go beyond “black-box” pattern fitting
 
+<div style="margin-top: 30px;"></div>
 ---
 
 ### 🔍 From Data to Structure: Why AI Needs Physics
