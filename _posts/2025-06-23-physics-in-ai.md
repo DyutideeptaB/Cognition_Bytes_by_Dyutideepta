@@ -36,8 +36,8 @@ Here’s where physics steps in:
 | Poor generalization | Physics-based priors improve extrapolation |
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/physics-in-ai.png" alt="Pendulum Oscillation to Neural Network" width="500" height="400"/>
-  <figcaption>From classical pendulum motion to modern neural networks—how physics inspires AI models.</figcaption>
+  <img src="/assets/images/physics-in-ai.png" alt="Pendulum Oscillation to Neural Network" width="500" height="400"/>
+  <figcaption>From oscillations to neural networks: a cartoonic simulation of Physics inspired AI.</figcaption>
 </figure>
 
 ---
