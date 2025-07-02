@@ -3,7 +3,7 @@ layout: home
 title: ""
 ---
 
-<--!responsive -->
+<-- responsive -->
 <style>
 /* Desktop: keep Minima's default header layout */
 .site-header .wrapper {
