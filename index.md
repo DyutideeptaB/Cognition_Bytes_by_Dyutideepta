@@ -4,46 +4,32 @@ title: ""
 ---
 
 <style>
-/* 🔁 Restore responsive layout for your custom link bar */
-.responsive-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 20px auto;
-  font-size: 0.95em;
-  padding: 0 1rem;
-}
-
-.responsive-nav a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-  flex: 1;
-  min-width: 120px;
-  justify-content: center;
-  margin: 6px 0;
-}
-
-.responsive-nav img {
-  margin-right: 6px;
-  width: 20px;
-  height: 20px;
-}
-
-/* 📱 Stack vertically on mobile */
+/* 📱 Apply only to small screens */
 @media (max-width: 600px) {
-  .responsive-nav {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
+  /* Stack title and nav properly */
+  .site-header .wrapper {
+    display: block; /* Force vertical stacking */
   }
 
-  .responsive-nav a {
-    justify-content: flex-start;
-    padding-left: 10px;
+  /* Title centered and spaced */
+  .site-title {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  /* Nav bar layout: horizontal + wrapped */
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    padding: 0.2rem 0 1rem 0;
+  }
+
+  .site-nav .page-link {
+    font-size: 0.95rem;
+    text-decoration: none;
   }
 }
 </style>
