@@ -3,9 +3,9 @@ layout: home
 title: ""
 ---
 
-<!-- Responsive layout fixes for mobile and desktop -->
+<!responsive -->
 <style>
-/* Desktop: preserve Minima layout */
+/* Desktop: keep Minima's default header layout */
 .site-header .wrapper {
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@ title: ""
   flex-wrap: wrap;
 }
 
-/* 🛠️ Fix for mobile layout */
+/* Mobile: stack site title and nav bar properly */
 @media (max-width: 600px) {
   .site-header .wrapper {
     display: flex;
@@ -24,25 +24,24 @@ title: ""
 
   .site-title {
     font-size: 1.3rem;
-    text-align: center;
-    margin: 1rem 0 0.5rem 0;
+    margin-bottom: 0.8rem;
     width: 100%;
-    display: block;
+    text-align: center;
   }
 
   .site-title a {
-    color: inherit;
+    display: inline-block;
     text-decoration: none;
-    display: block;
+    color: inherit;
   }
 
   .site-nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0.8rem;
-    width: 100%;
+    gap: 0.75rem;
     margin-bottom: 1rem;
+    width: 100%;
   }
 
   .site-nav .page-link {
@@ -51,7 +50,7 @@ title: ""
   }
 }
 
-/* 🔗 Custom link section (LinkedIn, GitHub, CV) */
+/* Custom contact link bar (LinkedIn, GitHub, CV) */
 .responsive-nav {
   display: flex;
   justify-content: space-between;
@@ -81,7 +80,7 @@ title: ""
   flex-shrink: 0;
 }
 
-/* 📱 Mobile: stack links left-aligned with breathing space */
+/* Mobile layout for contact links */
 @media (max-width: 600px) {
   .responsive-nav {
     flex-direction: column;
