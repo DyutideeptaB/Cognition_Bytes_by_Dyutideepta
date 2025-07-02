@@ -32,7 +32,7 @@ nav.responsive-theme-nav .page-link {
     flex-direction: row;           /* KEEP horizontal */
     justify-content: center;
     gap: 0.8rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     flex-wrap: wrap;               /* allow wrap if space runs out */
   }
 
