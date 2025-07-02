@@ -4,42 +4,47 @@ title: ""
 ---
 
 <style>
-/* Force header to stay static */
+/* ===== FIX OVERLAP BETWEEN HEADER + MAIN PAGE CONTENT ===== */
+
+/* Make sure header is static */
 header.site-header {
   position: static;
-  margin-bottom: 1.5rem;
+  z-index: 0;
 }
 
-/* Default nav styles: horizontal on desktop */
+/* Add vertical space between header and page content */
+main.page-content {
+  padding-top: 3.5rem;
+}
+
+/* Nav bar stays horizontal always */
 nav.responsive-theme-nav {
   display: flex;
   justify-content: center;
-  gap: 1.2rem;
   flex-wrap: wrap;
+  gap: 1.2rem;
   margin-top: 0.5rem;
 }
 
-/* Nav link appearance */
+/* Link style */
 nav.responsive-theme-nav .page-link {
   text-decoration: none;
   color: #444;
   font-weight: 500;
 }
 
-/* Mobile-specific changes */
+/* Title style on mobile */
 @media (max-width: 600px) {
-  nav.responsive-theme-nav {
-    flex-direction: row;           /* KEEP horizontal */
-    justify-content: center;
-    gap: 0.8rem;
-    padding-top: 1rem;
-    flex-wrap: wrap;               /* allow wrap if space runs out */
-  }
-
   .site-title {
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
+  }
+
+  nav.responsive-theme-nav {
+    flex-direction: row;
+    gap: 0.8rem;
+    padding-top: 0.5rem;
   }
 }
 </style>
