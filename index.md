@@ -4,50 +4,56 @@ title: ""
 ---
 
 <style>
-/* Layout fix for header and nav */
+/* STRUCTURE FIXES */
+
 header.site-header .wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
 }
 
-/* Site title styling */
+/* Title styling */
 .site-title {
-  margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+  text-align: center;
 }
 
-/* Nav bar layout */
-nav.site-nav {
+/* Nav: horizontal on desktop & mobile, wraps nicely */
+nav.responsive-theme-nav {
   display: flex;
-  gap: 1rem;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
 }
 
-/* Responsive fix: Stack title above nav on mobile */
+/* Link appearance */
+nav.responsive-theme-nav .page-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  font-size: 1rem;
+}
+
+/* MOBILE-SPECIFIC TWEAKS */
 @media (max-width: 600px) {
   header.site-header .wrapper {
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 0 1rem;
   }
 
   .site-title {
-    font-size: 1.2rem;
-    text-align: left;
-    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.4;
   }
 
-  nav.site-nav {
-    justify-content: flex-start;
-    width: 100%;
+  nav.responsive-theme-nav {
+    gap: 0.6rem;
     flex-wrap: wrap;
-    gap: 0.75rem;
   }
 
-  nav.site-nav .page-link {
-    display: inline-block;
+  nav.responsive-theme-nav .page-link {
     font-size: 0.95rem;
   }
 }
