@@ -12,6 +12,14 @@ title: ""
   flex-wrap: wrap;
 }
 
+.responsive-nav img {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+  
+
 /* ✅ Fix mobile layout */
 @media (max-width: 600px) {
   .site-header .wrapper {
