@@ -4,60 +4,93 @@ title: ""
 ---
 
 <style>
-/* STRUCTURE FIXES */
-
-header.site-header .wrapper {
+/* ✅ Fix layout for the site title and nav */
+.header-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding: 0 1rem;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-/* Title styling */
 .site-title {
-  font-size: 1.6rem;
-  margin: 0.5rem 0;
-  text-align: center;
+  font-size: 1.8rem;
+  margin: 0;
 }
 
-/* Nav: horizontal on desktop & mobile, wraps nicely */
-nav.responsive-theme-nav {
+.site-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ✅ Navigation bar */
+nav.site-nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 0.5rem;
+  gap: 1.2rem;
 }
 
-/* Link appearance */
-nav.responsive-theme-nav .page-link {
+nav.site-nav .page-link {
   text-decoration: none;
+  color: #444;
   font-weight: 500;
-  color: #333;
   font-size: 1rem;
 }
 
-/* MOBILE-SPECIFIC TWEAKS */
+/* ✅ Responsive layout for mobile */
 @media (max-width: 600px) {
-  header.site-header .wrapper {
-    padding: 0 1rem;
+  .header-wrapper {
+    align-items: flex-start;
   }
 
   .site-title {
     font-size: 1.3rem;
-    text-align: center;
-    line-height: 1.4;
   }
 
-  nav.responsive-theme-nav {
-    gap: 0.6rem;
+  nav.site-nav {
     flex-wrap: wrap;
+    gap: 0.8rem;
   }
 
-  nav.responsive-theme-nav .page-link {
+  nav.site-nav .page-link {
     font-size: 0.95rem;
   }
 }
+
+/* ✅ Preserve layout of your custom responsive-nav */
+.responsive-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 10px auto;
+  font-size: 0.95em;
+  gap: 8px;
+}
+
+.responsive-nav a {
+  margin: 6px 10px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.responsive-nav img {
+  margin-right: 6px;
+}
+
+@media (max-width: 600px) {
+  .responsive-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
+  }
+}
 </style>
+
 
 ## Hi, I'm Dyutideepta! Here is my journey in a nutshell.
 
