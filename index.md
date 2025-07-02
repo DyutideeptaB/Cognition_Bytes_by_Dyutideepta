@@ -3,9 +3,9 @@ layout: home
 title: ""
 ---
 
-<!-- Responsive layout and mobile fixes -->
+<!-- Responsive layout fixes for mobile and desktop -->
 <style>
-/* Desktop: site header remains side by side */
+/* Desktop: preserve Minima layout */
 .site-header .wrapper {
   display: flex;
   justify-content: space-between;
@@ -13,25 +13,24 @@ title: ""
   flex-wrap: wrap;
 }
 
-/* 📱 Mobile: stack title and nav cleanly */
+/* 🛠️ Fix for mobile layout */
 @media (max-width: 600px) {
   .site-header .wrapper {
-    flex-direction: column;
-    align-items: center;
+    display: block; /* Stack title and nav naturally */
+    text-align: center;
   }
 
   .site-title {
-    text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 0.75rem;
   }
 
   .site-nav {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.7rem;
-    margin-top: 0.3rem;
+    margin-bottom: 1rem;
   }
 
   .site-nav .page-link {
@@ -40,7 +39,7 @@ title: ""
   }
 }
 
-/* 🔗 Responsive link bar below bio */
+/* 🔗 Custom link section (LinkedIn, GitHub, CV) */
 .responsive-nav {
   display: flex;
   justify-content: space-between;
@@ -70,17 +69,17 @@ title: ""
   flex-shrink: 0;
 }
 
-/* 📱 Mobile: stack LinkedIn / GitHub / CV links */
+/* 📱 Mobile: stack links left-aligned with breathing space */
 @media (max-width: 600px) {
   .responsive-nav {
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    align-items: flex-start;
+    gap: 12px;
+    padding-left: 10px;
   }
 
   .responsive-nav a {
     justify-content: flex-start;
-    padding-left: 10px;
   }
 }
 </style>
