@@ -4,57 +4,42 @@ title: ""
 ---
 
 <style>
-/* Add spacing below the default header */
+/* Force header to stay static */
 header.site-header {
   position: static;
-  margin-bottom: 2rem;
-}  
-
-/* Improve spacing in main content */
-main.page-content {
-  padding-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-/* Responsive nav styling */
-.responsive-nav {
+/* Default nav styles: horizontal on desktop */
+nav.responsive-theme-nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin: 10px auto;
-  font-size: 0.95em;
-  gap: 8px;
+  margin-top: 0.5rem;
 }
 
-.responsive-nav a {
-  margin: 6px 10px;
+/* Nav link appearance */
+nav.responsive-theme-nav .page-link {
   text-decoration: none;
-  color: inherit;
-  display: flex;
-  align-items: center;
+  color: #444;
+  font-weight: 500;
 }
 
-.responsive-nav img {
-  margin-right: 6px;
-}
-
-/* Improve spacing between nav and heading */
-.responsive-nav + h1,
-.responsive-nav + h2,
-.responsive-nav + h3 {
-  margin-top: 1.5rem;
-}
-
+/* Mobile-specific changes */
 @media (max-width: 600px) {
-  .responsive-nav {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 10px;
+  nav.responsive-theme-nav {
+    flex-direction: row;           /* KEEP horizontal */
+    justify-content: center;
+    gap: 0.8rem;
+    padding-top: 0.5rem;
+    flex-wrap: wrap;               /* allow wrap if space runs out */
   }
 
-  h2, h1, h3, h4 {
-    margin-top: 24px;
+  .site-title {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
   }
 }
 </style>
