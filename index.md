@@ -4,7 +4,18 @@ title: ""
 ---
 
 <style>
-/* Responsive navbar fix */
+/* Add spacing below the default header */
+header.site-header {
+  position: static;
+  margin-bottom: 2rem;
+}  
+
+/* Improve spacing in main content */
+main.page-content {
+  padding-top: 0.5rem;
+}
+
+/* Responsive nav styling */
 .responsive-nav {
   display: flex;
   justify-content: space-between;
@@ -28,6 +39,13 @@ title: ""
   margin-right: 6px;
 }
 
+/* Improve spacing between nav and heading */
+.responsive-nav + h1,
+.responsive-nav + h2,
+.responsive-nav + h3 {
+  margin-top: 1.5rem;
+}
+
 @media (max-width: 600px) {
   .responsive-nav {
     flex-direction: column;
@@ -36,13 +54,8 @@ title: ""
   }
 
   h2, h1, h3, h4 {
-    margin-top: 24px; /* Adds space between nav and heading */
+    margin-top: 24px;
   }
-}
-
-  /* Add space below the Minima theme's default nav bar */
-nav.site-nav {
-  margin-bottom: 2.5rem;
 }
 </style>
 
