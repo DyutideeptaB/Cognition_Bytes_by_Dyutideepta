@@ -4,31 +4,50 @@ title: ""
 ---
 
 <style>
-/* ✅ Fix only mobile view */
+/* 🔁 Restore responsive layout for your custom link bar */
+.responsive-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 0.95em;
+  padding: 0 1rem;
+}
+
+.responsive-nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  flex: 1;
+  min-width: 120px;
+  justify-content: center;
+  margin: 6px 0;
+}
+
+.responsive-nav img {
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+}
+
+/* 📱 Stack vertically on mobile */
 @media (max-width: 600px) {
-  .site-header .wrapper {
-    display: block; /* Default block stacking */
+  .responsive-nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
   }
 
-  .site-title {
-    text-align: center;
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .site-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.6rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .site-nav .page-link {
-    font-size: 0.95rem;
+  .responsive-nav a {
+    justify-content: flex-start;
+    padding-left: 10px;
   }
 }
 </style>
+
 
 ## Hi, I'm Dyutideepta! Here is my journey in a nutshell.
 
@@ -36,22 +55,21 @@ title: ""
 🚀 From lunar rille detection and fluid mechanics to health-tech UX and encrypted QR systems.
 
 <div class="responsive-nav">
-
   <a href="https://www.linkedin.com/in/dyutideepta-banerjee" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="20" height="20">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
     LinkedIn
   </a>
 
   <a href="https://github.com/DyutideeptaB" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="20" height="20">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
     GitHub
   </a>
 
   <a href="https://dyutideeptab.github.io/Cognition_Bytes_by_Dyutideepta/assets/DyutideeptaBanerjee_CV.pdf" target="_blank">
     <span style="font-size: 18px;">📄</span>&nbsp;View My CV
   </a>
-
 </div>
+
 
 ---
 
