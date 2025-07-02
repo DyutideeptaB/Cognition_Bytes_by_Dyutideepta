@@ -39,6 +39,11 @@ title: ""
     margin-top: 24px; /* Adds space between nav and heading */
   }
 }
+
+  /* Add space below the Minima theme's default nav bar */
+nav.site-nav {
+  margin-bottom: 2.5rem;
+}
 </style>
 
 ## Hi, I'm Dyutideepta! Here is my journey in a nutshell.
