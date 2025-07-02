@@ -22,7 +22,7 @@ title: ""
 
   .site-title {
     font-size: 1.4rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.2rem;
   }
 
   .site-nav {
