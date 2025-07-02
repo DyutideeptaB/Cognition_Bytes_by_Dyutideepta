@@ -4,63 +4,31 @@ title: ""
 ---
 
 <style>
-/* ✅ Use Minima's .wrapper to center content */
-.wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-/* ✅ Ensure header content stacks vertically on mobile */
-.site-header .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* ✅ Site title */
-.site-title {
-  font-size: 1.8rem;
-  margin: 0.5rem 0;
-  text-align: center;
-}
-
-/* ✅ Nav bar default: horizontal and centered */
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.2rem;
-  margin-top: 0.5rem;
-}
-
-.page-link {
-  text-decoration: none;
-  font-weight: 500;
-  color: #333;
-  font-size: 1rem;
-}
-
-/* ✅ Mobile layout: reduce spacing and let nav wrap */
+/* ✅ Fix only mobile view */
 @media (max-width: 600px) {
+  .site-header .wrapper {
+    display: block; /* Default block stacking */
+  }
+
   .site-title {
-    font-size: 1.3rem;
     text-align: center;
-    line-height: 1.4;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
   }
 
   .site-nav {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.6rem;
+    padding-bottom: 0.5rem;
   }
 
-  .page-link {
+  .site-nav .page-link {
     font-size: 0.95rem;
   }
 }
 </style>
-
 
 ## Hi, I'm Dyutideepta! Here is my journey in a nutshell.
 
