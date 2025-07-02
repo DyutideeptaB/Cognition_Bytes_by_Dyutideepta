@@ -4,47 +4,51 @@ title: ""
 ---
 
 <style>
-/* ===== FIX OVERLAP BETWEEN HEADER + MAIN PAGE CONTENT ===== */
-
-/* Make sure header is static */
-header.site-header {
-  position: static;
-  z-index: 0;
-}
-
-/* Add vertical space between header and page content */
-main.page-content {
-  padding-top: 3.5rem;
-}
-
-/* Nav bar stays horizontal always */
-nav.responsive-theme-nav {
+/* Layout fix for header and nav */
+header.site-header .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 1.2rem;
-  margin-top: 0.5rem;
+  gap: 0.5rem;
 }
 
-/* Link style */
-nav.responsive-theme-nav .page-link {
-  text-decoration: none;
-  color: #444;
-  font-weight: 500;
+/* Site title styling */
+.site-title {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
-/* Title style on mobile */
+/* Nav bar layout */
+nav.site-nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Responsive fix: Stack title above nav on mobile */
 @media (max-width: 600px) {
-  .site-title {
-    text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 0.2rem;
+  header.site-header .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  nav.responsive-theme-nav {
-    flex-direction: row;
-    gap: 0.8rem;
-    padding-top: 0.5rem;
+  .site-title {
+    font-size: 1.2rem;
+    text-align: left;
+    width: 100%;
+  }
+
+  nav.site-nav {
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  nav.site-nav .page-link {
+    display: inline-block;
+    font-size: 0.95rem;
   }
 }
 </style>
