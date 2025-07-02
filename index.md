@@ -4,89 +4,59 @@ title: ""
 ---
 
 <style>
-/* ✅ Fix layout for the site title and nav */
-.header-wrapper {
+/* ✅ Use Minima's .wrapper to center content */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ✅ Ensure header content stacks vertically on mobile */
+.site-header .wrapper {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0 1rem;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
+  align-items: center;
 }
 
+/* ✅ Site title */
 .site-title {
   font-size: 1.8rem;
-  margin: 0;
+  margin: 0.5rem 0;
+  text-align: center;
 }
 
-.site-title a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* ✅ Navigation bar */
-nav.site-nav {
+/* ✅ Nav bar default: horizontal and centered */
+.site-nav {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1.2rem;
+  margin-top: 0.5rem;
 }
 
-nav.site-nav .page-link {
+.page-link {
   text-decoration: none;
-  color: #444;
   font-weight: 500;
+  color: #333;
   font-size: 1rem;
 }
 
-/* ✅ Responsive layout for mobile */
+/* ✅ Mobile layout: reduce spacing and let nav wrap */
 @media (max-width: 600px) {
-  .header-wrapper {
-    align-items: flex-start;
-  }
-
   .site-title {
     font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.4;
   }
 
-  nav.site-nav {
+  .site-nav {
     flex-wrap: wrap;
-    gap: 0.8rem;
+    justify-content: center;
+    gap: 0.6rem;
   }
 
-  nav.site-nav .page-link {
+  .page-link {
     font-size: 0.95rem;
-  }
-}
-
-/* ✅ Preserve layout of your custom responsive-nav */
-.responsive-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 10px auto;
-  font-size: 0.95em;
-  gap: 8px;
-}
-
-.responsive-nav a {
-  margin: 6px 10px;
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  align-items: center;
-}
-
-.responsive-nav img {
-  margin-right: 6px;
-}
-
-@media (max-width: 600px) {
-  .responsive-nav {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 10px;
   }
 }
 </style>
