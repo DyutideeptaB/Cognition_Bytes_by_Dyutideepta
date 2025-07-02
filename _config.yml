@@ -1,5 +1,5 @@
 theme: minima
-title: Congnition Bytes by Dyutideepta
+title: Cognition Bytes by Dyutideepta
 description: Physics-Informed AI | Vision Systems | Cross-Disciplinary Innovation
 markdown: kramdown
 
@@ -7,6 +7,8 @@ collections:
   posts:
     output: true
 
+# Minima default nav links (top bar)
+# You can comment this out if you are using a fully custom navbar
 nav:
   - title: Home
     url: /
