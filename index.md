@@ -16,21 +16,26 @@ title: ""
 /* 🛠️ Fix for mobile layout */
 @media (max-width: 600px) {
   .site-header .wrapper {
-    display: block; /* Stack title and nav naturally */
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .site-title {
     font-size: 1.4rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem; /* ✅ spacing added here */
+    width: 100%;
+    text-align: center;
   }
 
   .site-nav {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.7rem;
-    margin-bottom: 1rem;
+    gap: 0.8rem;
+    margin-top: 0.5rem; /* ✅ push down slightly */
+    width: 100%;
   }
 
   .site-nav .page-link {
