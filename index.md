@@ -41,6 +41,11 @@ title: ""
 }
 </style>
 
+## Hi, I'm Dyutideepta! Here is my journey in a nutshell.
+
+🌌 **Data Physicist** working at the intersection of AI, imaging, and innovation.  
+🚀 From lunar rille detection and fluid mechanics to health-tech UX and encrypted QR systems.
+
 <div class="responsive-nav">
 
   <a href="https://www.linkedin.com/in/dyutideepta-banerjee" target="_blank">
@@ -58,11 +63,6 @@ title: ""
   </a>
 
 </div>
-
-## Hi, I'm Dyutideepta! Here is my journey in a nutshell.
-
-🌌 **Data Physicist** working at the intersection of AI, imaging, and innovation.  
-🚀 From lunar rille detection and fluid mechanics to health-tech UX and encrypted QR systems.
 
 ---
 
