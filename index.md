@@ -19,23 +19,30 @@ title: ""
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 1rem;
   }
 
   .site-title {
-    font-size: 1.4rem;
-    margin-bottom: 1rem; /* ✅ spacing added here */
-    width: 100%;
+    font-size: 1.3rem;
     text-align: center;
+    margin: 1rem 0 0.5rem 0;
+    width: 100%;
+    display: block;
+  }
+
+  .site-title a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
   }
 
   .site-nav {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 0.8rem;
-    margin-top: 0.5rem; /* ✅ push down slightly */
     width: 100%;
+    margin-bottom: 1rem;
   }
 
   .site-nav .page-link {
