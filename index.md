@@ -4,27 +4,33 @@ title: ""
 ---
 
 <style>
-/* 📱 Apply only to small screens */
+/* ✅ Default layout: fine on desktop, no changes */
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ✅ Fix mobile layout */
 @media (max-width: 600px) {
-  /* Stack title and nav properly */
   .site-header .wrapper {
-    display: block; /* Force vertical stacking */
+    flex-direction: column;
+    align-items: center;
   }
 
-  /* Title centered and spaced */
   .site-title {
     text-align: center;
-    font-size: 1.3rem;
-    margin: 0 0 0.5rem 0;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
   }
 
-  /* Nav bar layout: horizontal + wrapped */
   .site-nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.8rem;
-    padding: 0.2rem 0 1rem 0;
+    gap: 0.6rem;
+    padding: 0 0 0.5rem 0;
   }
 
   .site-nav .page-link {
