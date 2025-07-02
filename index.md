@@ -13,35 +13,39 @@ title: ""
   flex-wrap: wrap;
 }
 
-/* Mobile: stack site title and nav bar properly */
+/* Mobile fix: make header stack correctly */
 @media (max-width: 600px) {
   .site-header .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    text-align: center;
   }
 
   .site-title {
     display: block;
-    width: 100%;
-    font-size: 1.3rem;
-    text-align: center;
-    margin: 1rem 0 0.5rem;
+    font-size: 1.4rem;
+    margin: 1rem 0 0.3rem;
   }
 
   .site-title a {
     display: inline-block;
-    color: inherit;
     text-decoration: none;
+    color: inherit;
   }
 
   .site-nav {
+    float: none !important;          /* ✅ Cancel Minima’s float */
+    position: relative !important;   /* ✅ Reset layout */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0.75rem;
-    margin-bottom: 1rem;
-    width: 100%;
+    gap: 0.8rem;
+    margin: 0.5rem 0 1rem;
+    z-index: 1;
+  }
+
+  .site-nav .page-link {
+    text-decoration: none;
+    font-size: 0.95rem;
   }
 }
 
