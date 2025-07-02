@@ -19,20 +19,20 @@ title: ""
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 1rem;
   }
 
   .site-title {
-    font-size: 1.3rem;
-    margin-bottom: 0.8rem;
+    display: block;
     width: 100%;
+    font-size: 1.3rem;
     text-align: center;
+    margin: 1rem 0 0.5rem;
   }
 
   .site-title a {
     display: inline-block;
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
   }
 
   .site-nav {
@@ -42,11 +42,6 @@ title: ""
     gap: 0.75rem;
     margin-bottom: 1rem;
     width: 100%;
-  }
-
-  .site-nav .page-link {
-    font-size: 0.95rem;
-    text-decoration: none;
   }
 }
 
