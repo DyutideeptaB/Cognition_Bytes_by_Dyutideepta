@@ -3,9 +3,9 @@ layout: home
 title: ""
 ---
 
-<!-- Custom styles for layout and mobile fixes -->
+<!-- Responsive layout and mobile fixes -->
 <style>
-/* Wrapper layout is already defined by Minima */
+/* Desktop: site header remains side by side */
 .site-header .wrapper {
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@ title: ""
   flex-wrap: wrap;
 }
 
-/* Mobile fix */
+/* 📱 Mobile: stack title and nav cleanly */
 @media (max-width: 600px) {
   .site-header .wrapper {
     flex-direction: column;
@@ -23,22 +23,24 @@ title: ""
   .site-title {
     text-align: center;
     font-size: 1.3rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
   }
 
   .site-nav {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    padding-bottom: 0.5rem;
+    gap: 0.7rem;
+    margin-top: 0.3rem;
   }
 
   .site-nav .page-link {
     font-size: 0.95rem;
+    text-decoration: none;
   }
 }
 
-/* Responsive link bar below bio */
+/* 🔗 Responsive link bar below bio */
 .responsive-nav {
   display: flex;
   justify-content: space-between;
@@ -61,16 +63,18 @@ title: ""
 }
 
 .responsive-nav img {
-  margin-right: 6px;
   width: 20px;
   height: 20px;
+  margin-right: 6px;
+  vertical-align: middle;
+  flex-shrink: 0;
 }
 
-/* Mobile: stack the links vertically */
+/* 📱 Mobile: stack LinkedIn / GitHub / CV links */
 @media (max-width: 600px) {
   .responsive-nav {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
   }
 
@@ -89,12 +93,12 @@ title: ""
 <div class="responsive-nav">
 
   <a href="https://www.linkedin.com/in/dyutideepta-banerjee" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="20" height="20">
     LinkedIn
   </a>
 
   <a href="https://github.com/DyutideeptaB" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="20" height="20">
     GitHub
   </a>
 
