@@ -19,8 +19,7 @@ Equally transformative is **entanglement**, where correlated states like
 \[
 |\Phi^+\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle \right)
 \]
-
-> create non-classical connections across space, forming the backbone of quantum communication and distributed computation.
+create non-classical connections across space, forming the backbone of quantum communication and distributed computation.
 
 Beyond these foundations, advanced states such as cat states and cluster states underpin measurement-based models and fault tolerance. Quantum key distribution (QKD) demonstrates how single-photon exchanges can create unbreakable communication channels, 
 while quantum–classical interfaces explore ways of embedding real-world data into quantum states for acceleration.
