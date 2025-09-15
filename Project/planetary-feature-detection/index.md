@@ -3,10 +3,10 @@ layout: page
 title: ""
 permalink: /Project/planetary-feature-detection/
 ---
-# AI for Lunar Sinuous Rille Detection
+# AI-Vision pipeline for satellite data analysis using Lunar Sinuous Rilles as an example
 
 ### Overview  
-A MATLAB + CNN-based pipeline for detecting volcanic lunar sinuous rilles from KAGUYA MSI data.
+A MATLAB application that seamlessly integrates spectral and terrain remote sensing image data pre-processing steps like augmentation, enhancement, annotation & segmentation. Using semi-manual point-and-click selection of features by domain experts, one can create feature-specific training data of very high quality. The application is adaptable for any use case by altering the encoding for image bands and threshold limits. Using CNN-based architectures, the verification of fine-tuned models for the detection of lunar volcanic features like sinuous rilles was performed on the SELENE KAGUYA dataset, achieving predictions greater than 95% accuracy.
 
 ### 💻 Software
 - **Programming Language**: MATLAB®  
@@ -20,8 +20,11 @@ A MATLAB + CNN-based pipeline for detecting volcanic lunar sinuous rilles from K
 - Grad-CAM visualisation
 
 ### Impact  
-> >95% accuracy  
-> Used in MSc dissertation & presented at Max Planck Institute & European Lunar Symposium
+> MATLAB application to reduce time and effort for preprocessing the spectral image data is fully adaptable for similar datasets across domains.
+> High-resolution gold-standard data created is available for free use to the community, usable for future missions.
+> Deep/ Transfer learning pipelines are customisable and reproducible for specific cases.
+> Prediction accuracies on KAGUYA image data for sinuous rille classification were >95% accuracy  
+> Research presented at Max Planck Institute & European Lunar Symposium
 
 <div style="display: flex; justify-content: flex-start; align-items: center; max-width: 800px; margin: 10px auto; font-size: 0.95em;">
   <a href="https://github.com/DyutideeptaB/AI-for-Sinuous-Detection" target="_blank" style="text-decoration: none; color: #007bff; display: flex; align-items: center;">
