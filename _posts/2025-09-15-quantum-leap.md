@@ -53,7 +53,7 @@ their interaction defines the problem statement.
 A photonic Ising machine is a quantum-inspired hardware that solves the Ising problem by starting from a random high-energy state and settling towards the lowest energy state. The Quanfluence photonic Ising machine does exactly that. I had seen the 
 Quanfluence Ising machine at the QIB 2025.
 ![This part of the lab is where I could see how the full table top set-up gets 
-squeezed down into a small ~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip.](/assets/images/V2_1.heic "Quanfluence Micro Chip")
+squeezed down into a small ~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip.](/assets/images/V2_1.jpg "Quanfluence Micro Chip")
 
 In the lab, I got to see their development flow. There is an FPGA system which is hooked up to an optical system with custom circuits built at Quanfluence lab. I could clearly trace the path of the gain dissipative loop inside the hardware box. 
 They showed us the earlier variants of the machine and how it has evolved from a lab prototype to a full-fledged rack-mountable machine.
