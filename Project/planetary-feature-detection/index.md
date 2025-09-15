@@ -20,10 +20,10 @@ A MATLAB application that seamlessly integrates spectral and terrain remote sens
 - Grad-CAM visualisation
 
 ### Impact  
-> MATLAB application to reduce time and effort for preprocessing the spectral image data is fully adaptable for similar datasets across domains.
-> High-resolution gold-standard data created is available for free use to the community, usable for future missions.
-> Deep/ Transfer learning pipelines are customisable and reproducible for specific cases.
-> Prediction accuracies on KAGUYA image data for sinuous rille classification were >95% accuracy  
+> MATLAB application to reduce time and effort for preprocessing the spectral image data is fully adaptable for similar datasets across domains<br />
+> High-resolution gold-standard data created is available for free use to the community, usable for future missions<br />
+> Deep/ Transfer learning pipelines are customisable and reproducible for specific cases<br />
+> Prediction accuracies on KAGUYA image data for sinuous rille classification were >95% accuracy<br />
 > Research presented at Max Planck Institute & European Lunar Symposium
 
 <div style="display: flex; justify-content: flex-start; align-items: center; max-width: 800px; margin: 10px auto; font-size: 0.95em;">
