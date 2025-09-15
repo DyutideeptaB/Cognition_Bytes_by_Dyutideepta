@@ -1,9 +1,9 @@
 # Quantum Frontiers: Reflections from my visit to Quanfluence
 
 Quantum computing is no longer a distant theoretical promise. It is rapidly becoming a transformative technology with profound implications for science, industry, and society. Recently, I had the opportunity to visit a top 
-innovation startup - Quanfluence, established in 2021, is a pioneering photonic quantum computing company in Bangalore, India, and to witness firsthand how abstract concepts of quantum physics are being translated into tangible hardware.
+innovation startup - [Quanfluence](https://quanfluence.com/), established in 2021, is a pioneering photonic quantum computing company in Bangalore, India, and to witness firsthand how abstract concepts of quantum physics are being translated into tangible hardware.
 
-Mr Biman Chattopadhyay and his team at Quanfluence shared very insightful information and enthusiastically walked me through their laboratory. As a Physicist and Deep Tech professional, I found the experience particularly insightful: 
+[Mr Biman Chattopadhyay](https://www.linkedin.com/in/biman-chattopadhyay-532a6753/?originalSubdomain=in) and his team at Quanfluence shared very insightful information and enthusiastically walked me through their laboratory. As a Physicist and Deep Tech professional, I found the experience particularly insightful: 
 it offered a rare glimpse into how cutting-edge experiments in quantum optics are converging with scalable engineering, and how these developments resonate both with academic research and industrial needs.
 
 ## Quantum Principles in Action
@@ -96,6 +96,7 @@ between physics and engineering, research and product, academia and the market.
 Visiting Quanfluence underscored for me that we are standing at the edge of a technological shift. Quantum computing is not merely an academic curiosity - it is rapidly becoming a driver of economic, medical, and societal transformation.
 
 For me, as someone who began with equations on a blackboard, witnessing photons inside chips reminded me that the future of deep tech belongs to those who dare to bridge theory and practice.
+![Picture](/assets/images/IMG-20250801-WA0010.jpg "Quanfluence Micro Chip")
 
 Quantum computing will not only redefine the limits of computation but also the way we approach complex problems across disciplines.
 
