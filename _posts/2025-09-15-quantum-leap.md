@@ -33,22 +33,27 @@ These principles, which I once approached in purely theoretical contexts, were n
 
 At Quanfluence, two complementary approaches illustrate this transition from principle to practice:
 
-### Optical Breadboard Setups (possible image)
+### Optical Breadboard Setups 
+
+![Optical Breadboard Setup](/assets/images/TableTop.jpg "Optical Breadboard Setup at Quanfluence Lab")
 
 Here, mirrors, lenses, and nonlinear crystals are aligned to create effectively infinite light paths. Photons undergo multiple reflections, extending their interaction lengths; ideal for generating entanglement, reducing noise in the quantum spectrum, 
 and testing fundamental quantum optical phenomena.
 
 While the optical breadboard is a fantastic proof-of-concept, they explained that it is limited to a physics experiment. To build a scalable computer, the content of an 8ft x 6ft breadboard has to be compressed into a chip. That is how even the 
-electronics industry has scaled over decades, starting from vacuum tubes to integrated circuits. And that’s precisely what I got to see in the next section of the lab. This part of the lab is where I could see how the full table top set-up gets 
-squeezed down into a small ~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip.
+electronics industry has scaled over decades, starting from vacuum tubes to integrated circuits. And that’s precisely what I got to see in the next section of the lab. 
 
-### Photonic Ising Machines (possible image)
+### Photonic Ising Machines 
+![This part of the lab is where I could see how the full table top set-up gets 
+squeezed down into a small ~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip.](/assets/images/PXL_20241210_133417904.PORTRAIT.jpg "Quanfluence Lab")
 
 The principle of the Ising Machine is driven by spin systems. A physical system containing an ensemble of interacting spins tends to settle to the lowest energy state. This maps to an optimisation problem where each decision variable is a spin and 
 their interaction defines the problem statement.
 
 A photonic Ising machine is a quantum-inspired hardware that solves the Ising problem by starting from a random high-energy state and settling towards the lowest energy state. The Quanfluence photonic Ising machine does exactly that. I had seen the 
 Quanfluence Ising machine at the QIB 2025.
+![This part of the lab is where I could see how the full table top set-up gets 
+squeezed down into a small ~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip.](/assets/images/V2_1.heic "Quanfluence Micro Chip")
 
 In the lab, I got to see their development flow. There is an FPGA system which is hooked up to an optical system with custom circuits built at Quanfluence lab. I could clearly trace the path of the gain dissipative loop inside the hardware box. 
 They showed us the earlier variants of the machine and how it has evolved from a lab prototype to a full-fledged rack-mountable machine.
