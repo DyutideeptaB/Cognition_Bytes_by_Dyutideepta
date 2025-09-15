@@ -3,7 +3,7 @@
 Quantum computing is no longer a distant theoretical promise. It is rapidly becoming a transformative technology with profound implications for science, industry, and society. Recently, I had the opportunity to visit a top 
 innovation startup - [Quanfluence](https://quanfluence.com/), established in 2021, is a pioneering photonic quantum computing company in Bangalore, India, and to witness firsthand how abstract concepts of quantum physics are being translated into tangible hardware.
 
-[Mr Biman Chattopadhyay](https://www.linkedin.com/in/biman-chattopadhyay-532a6753/?originalSubdomain=in) and his team at Quanfluence shared very insightful information and enthusiastically walked me through their laboratory. As a Physicist and Deep Tech professional, I found the experience particularly insightful: 
+Mr [Biman Chattopadhyay](https://www.linkedin.com/in/biman-chattopadhyay-532a6753/?originalSubdomain=in) and his team at [Quanfluence](https://quanfluence.com/) shared very insightful information and enthusiastically walked me through their laboratory. As a Physicist and Deep Tech professional, I found the experience particularly insightful: 
 it offered a rare glimpse into how cutting-edge experiments in quantum optics are converging with scalable engineering, and how these developments resonate both with academic research and industrial needs.
 
 ## Quantum Principles in Action
@@ -44,8 +44,8 @@ While the optical breadboard is a fantastic proof-of-concept, they explained tha
 electronics industry has scaled over decades, starting from vacuum tubes to integrated circuits. And that’s precisely what I got to see in the next section of the lab. 
 
 ### Photonic Ising Machines 
-![This part of the lab is where I could see how the full table top set-up gets 
-squeezed down into a small ~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip.](/assets/images/PXL_20241210_133417904.PORTRAIT.jpg "Quanfluence Lab")
+This part of the lab is where I could see how the full table top set-up gets squeezed down into a small ~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip.
+![Micro Chip](/assets/images/PXL_20241210_133417904.PORTRAIT.jpg "Quanfluence Lab")
 
 The principle of the Ising Machine is driven by spin systems. A physical system containing an ensemble of interacting spins tends to settle to the lowest energy state. This maps to an optimisation problem where each decision variable is a spin and 
 their interaction defines the problem statement.
@@ -91,8 +91,7 @@ Companies like Quanfluence demonstrate how fundamental research and applied engi
 For researchers, it’s a call to innovate. For industries, it’s a chance to adopt early and lead. And for professionals like me who straddle the line between theory and application, it’s a reminder that the future of deep tech lies in building bridges 
 between physics and engineering, research and product, academia and the market.
 
-## Closing Thoughts (Will add our photo/ selfie from QIB for personalisation)
-
+## Closing Thoughts
 Visiting Quanfluence underscored for me that we are standing at the edge of a technological shift. Quantum computing is not merely an academic curiosity - it is rapidly becoming a driver of economic, medical, and societal transformation.
 
 For me, as someone who began with equations on a blackboard, witnessing photons inside chips reminded me that the future of deep tech belongs to those who dare to bridge theory and practice.
