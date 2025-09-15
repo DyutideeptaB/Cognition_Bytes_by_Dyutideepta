@@ -6,7 +6,7 @@ permalink: /Project/planetary-feature-detection/
 # AI-Vision pipeline for satellite data analysis using Lunar Sinuous Rilles as an example
 
 ### Overview  
-A MATLAB application that seamlessly integrates spectral and terrain remote sensing image data pre-processing steps like augmentation, enhancement, annotation & segmentation. Using semi-manual point-and-click selection of features by domain experts, one can create feature-specific training data of very high quality. The application is adaptable for any use case by altering the encoding for image bands and threshold limits. Using CNN-based architectures, the verification of fine-tuned models for the detection of lunar volcanic features like sinuous rilles was performed on the SELENE KAGUYA dataset, achieving predictions greater than 95% accuracy.
+A MATLAB application that seamlessly integrates spectral and terrain remote sensing image data pre-processing steps like augmentation, enhancement, annotation & segmentation. Using semi-manual point-and-click selection of features by domain experts, one can create feature-specific training data of very high quality. The application is adaptable for any use case by altering the encoding for image bands and threshold limits. Using CNN-based architectures, the verification of fine-tuned models for the detection of lunar volcanic features like sinuous rilles was performed on the SELENE KAGUYA dataset.
 
 ### 💻 Software
 - **Programming Language**: MATLAB®  
