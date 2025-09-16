@@ -18,14 +18,17 @@ it offered a rare glimpse into how cutting-edge experiments in quantum optics ar
 At its core, quantum information science is built on principles that redefine what computation can achieve.
 
 Unlike classical bits, which are confined to values of 0 or 1, qubits can exist in linear combinations of states using **superposition**, unlocking parallelism at the computational level.
+
 $$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
 $$
 
 Equally transformative is **entanglement**, where correlated states like
+
 $$
 |\Phi^+\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle \right)
 $$
+
 create non-classical connections across space, forming the backbone of quantum communication and distributed computation.
 
 Beyond these foundations, advanced states such as cat states and cluster states underpin measurement-based models and fault tolerance. **Quantum key distribution (QKD)** demonstrates how single-photon exchanges can create unbreakable communication channels, while **quantum–classical interfaces** explore ways of embedding real-world data into quantum states for acceleration.
