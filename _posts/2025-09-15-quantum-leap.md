@@ -28,8 +28,7 @@ Equally transformative is **entanglement**, where correlated states like
 \]
 create non-classical connections across space, forming the backbone of quantum communication and distributed computation.
 
-Beyond these foundations, advanced states such as cat states and cluster states underpin measurement-based models and fault tolerance. Quantum key distribution (QKD) demonstrates how single-photon exchanges can create unbreakable communication channels, 
-while quantum–classical interfaces explore ways of embedding real-world data into quantum states for acceleration.
+Beyond these foundations, advanced states such as cat states and cluster states underpin measurement-based models and fault tolerance. **Quantum key distribution (QKD)** demonstrates how single-photon exchanges can create unbreakable communication channels, while **quantum–classical interfaces** explore ways of embedding real-world data into quantum states for acceleration.
 
 Of course, the elegance of these principles comes with significant challenges. Noise, decoherence, and the need for error correction remain central concerns, with strategies like surface codes and thermal stabilisation paving the way toward scalable 
 machines. At the same time, boson sampling provides a near-term benchmark of photonic advantage, highlighting how light itself becomes a natural substrate for quantum computation.
@@ -47,24 +46,25 @@ At Quanfluence, two complementary approaches illustrate this transition from pri
 Here, mirrors, lenses, and nonlinear crystals are aligned to create effectively infinite light paths. Photons undergo multiple reflections, extending their interaction lengths; ideal for generating entanglement, reducing noise in the quantum spectrum, 
 and testing fundamental quantum optical phenomena.
 
-While the optical breadboard is a fantastic proof-of-concept, they explained that it is limited to a physics experiment. To build a scalable computer, the content of an 8ft x 6ft breadboard has to be compressed into a chip. That is how even the 
+While the optical breadboard is a fantastic proof-of-concept, they explained that it is limited to a physics experiment. To build a scalable computer, the content of an **8ft x 6ft breadboard has to be compressed into a chip**. That is how even the 
 electronics industry has scaled over decades, starting from vacuum tubes to integrated circuits. And that’s precisely what I got to see in the next section of the lab. 
 
 ### Photonic Ising Machines 
-This part of the lab is where I could see how the full table top set-up gets squeezed down into a small ~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip.
+
+This part of the lab is where I could see how the full table top set-up gets squeezed down into a small **~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip**.
 ![Micro Chip Lab](/assets/images/PXL_20241210_133417904.PORTRAIT.jpg "Quanfluence Lab")
 
-The principle of the Ising Machine is driven by spin systems. A physical system containing an ensemble of interacting spins tends to settle to the lowest energy state. This maps to an optimisation problem where each decision variable is a spin and 
+The principle of the Ising Machine is driven by spin systems. A physical system containing an ensemble of interacting spins tends to settle to the **lowest energy state**. This maps to an optimisation problem where each decision variable is a spin and 
 their interaction defines the problem statement.
 
 A photonic Ising machine is a quantum-inspired hardware that solves the Ising problem by starting from a random high-energy state and settling towards the lowest energy state. The Quanfluence photonic Ising machine does exactly that. I had seen the 
-Quanfluence Ising machine at the QIB 2025.
+Quanfluence Ising machine at the [QIB 2025](https://quantumindiabengaluru.com/).
 ![Micro chip product](/assets/images/V2_1.jpg "Quanfluence Micro Chip")
 
-In the lab, I got to see their development flow. There is an FPGA system which is hooked up to an optical system with custom circuits built at Quanfluence lab. I could clearly trace the path of the gain dissipative loop inside the hardware box. 
+In the lab, I got to see their development flow. There is an **FPGA system** which is hooked up to an **optical system with custom circuits** built at Quanfluence lab. I could clearly trace the path of the gain dissipative loop inside the hardware box. 
 They showed us the earlier variants of the machine and how it has evolved from a lab prototype to a full-fledged rack-mountable machine.
 
-Together, these setups represent both scalability and flexibility: the chip-based systems lean toward industrial readiness, while the breadboards enable exploratory research.
+*Together, these setups represent both scalability and flexibility: the chip-based systems lean toward industrial readiness, while the breadboards enable exploratory research.*
 
 ## Why Quantum Computing Matters
 
@@ -78,11 +78,11 @@ complexity explodes exponentially.
 - **Cybersecurity:** While quantum algorithms threaten current encryption standards, quantum key distribution and post-quantum cryptography provide new frameworks for secure communication.
 - **Optimisation:** From supply chain logistics to financial portfolio management, quantum-inspired algorithms can accelerate decision-making in environments with countless possibilities.
 
-For academia, these opportunities create fertile ground for new algorithms, models, and theoretical advances. For industry, they represent emerging markets and competitive advantages in sectors from finance to pharmaceuticals.
+*For academia, these opportunities create fertile ground for new algorithms, models, and theoretical advances. For industry, they represent emerging markets and competitive advantages in sectors from finance to pharmaceuticals.*
 
 ## Bridging Physics and Industry
 
-As a Physicist, what struck me most during my visit to Quanfluence was the fusion of theory and engineering. How the principles of quantum physics, once confined to abstract mathematics, are now being reframed as solutions to global challenges.
+As a Physicist, what struck me most during my visit to Quanfluence was the ***fusion of theory and engineering***. How the principles of quantum physics, once confined to abstract mathematics, are now being reframed as solutions to global challenges.
 
 Superposition and entanglement, once purely abstract, were manifest in real devices - whether in a chip embedded with interferometers maintaining squeezed-light states or in a breadboard setup generating entangled photons. Quanfluence exemplifies 
 the delicate balance between rigorous scientific inquiry and real-world application.
@@ -94,8 +94,8 @@ The road ahead is not without obstacles. Fragile states must be stabilised, erro
 
 Companies like Quanfluence demonstrate how fundamental research and applied engineering can come together to position India within the global quantum ecosystem.
 
-For researchers, it’s a call to innovate. For industries, it’s a chance to adopt early and lead. And for professionals like me who straddle the line between theory and application, it’s a reminder that the future of deep tech lies in building bridges 
-between physics and engineering, research and product, academia and the market.
+*For researchers, it’s a call to innovate. For industries, it’s a chance to adopt early and lead. And for professionals like me who straddle the line between theory and application, it’s a reminder that the future of deep tech lies in building bridges 
+between physics and engineering, research and product, academia and the market.*
 
 ## Closing Thoughts
 Visiting Quanfluence underscored for me that we are standing at the edge of a technological shift. Quantum computing is not merely an academic curiosity - it is rapidly becoming a driver of economic, medical, and societal transformation.
