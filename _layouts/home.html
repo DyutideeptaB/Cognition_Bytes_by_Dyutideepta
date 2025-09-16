@@ -1,49 +1,40 @@
+--- 
+layout: default 
 ---
-layout: default
----
 
-<main class="page-content" aria-label="Content">
-  <div class="wrapper">
+<div class="home"> 
+  
+  <h1 class="page-heading">{{ page.title | default: "Welcome to my Page" }}</h1> 
+  
+  {{ content }} 
+  
+  {% if site.posts.size > 0 %} 
+  <h2 class="post-list-heading"> 
+    {{ page.list_title | default: "Posts" }} 
+  </h2> 
+  <ul class="post-list"> 
+    {% for post in site.posts %} 
+    <li> 
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> 
+      <h3> 
+        <a class="post-link" href="{{ post.url | relative_url }}"> 
+          {{ post.title | escape }} 
+        </a> 
+      </h3> 
+    </li> 
+    {% endfor %} 
+  </ul> 
+  {% endif %} 
+  
+  <div style="margin-top: 2em;"> 
+    <h3>🔔 Stay Updated</h3> 
+    <p> 
+      <a href="https://blogtrottr.com/?subscribe=http://dyutideepta.is-a.dev/feed.xml" target="_blank"> 
+        📫 Subscribe via Email 
+      </a> 
+    </p> 
+  </div> 
 
-    <div class="home">
+</div> 
 
-      <!-- Page heading -->
-      <h1 class="page-heading">{{ page.title | default: "Welcome to my Page" }}</h1>
-
-      <!-- Page content from index.md -->
-      {{ content }}
-
-      <!-- Latest blog posts list -->
-      {% if site.posts.size > 0 %}
-        <h2 class="post-list-heading">
-          {{ page.list_title | default: "Posts" }}
-        </h2>
-        <ul class="post-list">
-          {% for post in site.posts %}
-            <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-
-      <!-- Subscribe / updates section -->
-      <div style="margin-top: 2em;">
-        <h3>🔔 Stay Updated</h3>
-        <p>
-          <a href="https://blogtrottr.com/?subscribe=http://dyutideepta.is-a.dev/feed.xml" target="_blank">
-            📫 Subscribe via Email
-          </a>
-        </p>
-      </div>
-
-    </div> <!-- /.home -->
-
-  </div> <!-- /.wrapper -->
-</main>
-
+{% include footer.html %}
