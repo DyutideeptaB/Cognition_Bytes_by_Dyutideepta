@@ -2,8 +2,24 @@
 layout: default 
 ---
 
+<!-- MathJax for LaTeX rendering -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 <div class="home"> 
-  
   <h1 class="page-heading">{{ page.title | default: "Welcome to my Page" }}</h1> 
   
   {{ content }} 
@@ -33,24 +49,5 @@ layout: default
         📫 Subscribe via Email 
       </a> 
     </p> 
-  </div> 
-
-  <!-- MathJax for LaTeX rendering -->
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$','$$'], ['\\[','\\]']]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
-
-</div> 
+  </div>
+</div>
