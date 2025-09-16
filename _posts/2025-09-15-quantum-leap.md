@@ -10,7 +10,7 @@ it offered a rare glimpse into how cutting-edge experiments in quantum optics ar
 
 At its core, quantum information science is built on principles that redefine what computation can achieve.
 
-Unlike classical bits, which are confined to values of 0 or 1, qubits can exist in linear combinations of states using **Superposition**, unlocking parallelism at the computational level.
+Unlike classical bits, which are confined to values of 0 or 1, qubits can exist in linear combinations of states using **superposition**, unlocking parallelism at the computational level.
 \[
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
 \]
@@ -98,4 +98,4 @@ For me, as someone who began with equations on a blackboard, witnessing photons 
 
 Quantum computing will not only redefine the limits of computation but also the way we approach complex problems across disciplines.
 
-Observing these efforts up close reaffirmed for me that the quantum revolution is no longer theoretical. It is unfolding, photon by photon, qubit by qubit, breakthrough by breakthrough.
+*Observing these efforts up close reaffirmed for me that the quantum revolution is no longer theoretical.* ***It is unfolding, photon by photon, qubit by qubit, breakthrough by breakthrough.***
