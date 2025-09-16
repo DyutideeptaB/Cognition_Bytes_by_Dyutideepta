@@ -6,10 +6,14 @@ layout: default
   <div class="wrapper">
 
     <div class="home">
+
+      <!-- Page heading -->
       <h1 class="page-heading">{{ page.title | default: "Welcome to my Page" }}</h1>
 
+      <!-- Page content from index.md -->
       {{ content }}
 
+      <!-- Latest blog posts list -->
       {% if site.posts.size > 0 %}
         <h2 class="post-list-heading">
           {{ page.list_title | default: "Posts" }}
@@ -28,6 +32,7 @@ layout: default
         </ul>
       {% endif %}
 
+      <!-- Subscribe / updates section -->
       <div style="margin-top: 2em;">
         <h3>🔔 Stay Updated</h3>
         <p>
@@ -36,7 +41,8 @@ layout: default
           </a>
         </p>
       </div>
-    </div>
 
-  </div>
+    </div> <!-- /.home -->
+
+  </div> <!-- /.wrapper -->
 </main>
