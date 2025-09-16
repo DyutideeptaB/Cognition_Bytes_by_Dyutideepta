@@ -17,13 +17,13 @@ it offered a rare glimpse into how cutting-edge experiments in quantum optics ar
 
 At its core, quantum information science is built on principles that redefine what computation can achieve.
 
-Unlike classical bits, which are confined to values of 0 or 1, qubits can exist in linear combinations of states using **superposition**, unlocking parallelism at the computational level.
+Unlike classical bits, which are confined to values of 0 or 1, qubits can exist in linear combinations of states using **superposition** ([see Hughes et al., 2021](https://www.researchgate.net/publication/350295142_Introduction_to_Superposition)), unlocking parallelism at the computational level.
 
 $$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
 $$
 
-Equally transformative is **entanglement**, where correlated states like
+Equally transformative is **entanglement** ([see Horodecki et al., 2007](https://arxiv.org/abs/quant-ph/0702225)), where correlated states like
 
 $$
 |\Phi^+\rangle = \frac{1}{\sqrt{2}}\left(|00\rangle + |11\rangle \right)
@@ -31,7 +31,7 @@ $$
 
 create non-classical connections across space, forming the backbone of quantum communication and distributed computation.
 
-Beyond these foundations, advanced states such as cat states and cluster states underpin measurement-based models and fault tolerance. **Quantum key distribution (QKD)** demonstrates how single-photon exchanges can create unbreakable communication channels, while **quantum–classical interfaces** explore ways of embedding real-world data into quantum states for acceleration.
+Beyond these foundations, advanced states such as cat states and cluster states underpin measurement-based models and fault tolerance. **Quantum key distribution (QKD)** ([see Sacarani et al., 2009](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.81.1301)) demonstrates how single-photon exchanges can create unbreakable communication channels, while **quantum–classical interfaces** explore ways of embedding real-world data into quantum states for acceleration.
 
 Of course, the elegance of these principles comes with significant challenges. Noise, decoherence, and the need for error correction remain central concerns, with strategies like surface codes and thermal stabilisation paving the way toward scalable 
 machines. At the same time, boson sampling provides a near-term benchmark of photonic advantage, highlighting how light itself becomes a natural substrate for quantum computation.
