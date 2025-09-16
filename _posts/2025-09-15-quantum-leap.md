@@ -3,6 +3,7 @@ layout: post
 title: "Quantum Frontiers: Reflections from my visit to Quanfluence"
 date: 2025-09-17
 permalink: /blog/quantum-leap/
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 ---
 
 # Quantum Frontiers: Reflections from my visit to Quanfluence
