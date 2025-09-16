@@ -5,8 +5,6 @@ date: 2025-09-16
 permalink: /blog/quantum-leap/
 ---
 
-# Quantum Frontiers: Reflections from my visit to Quanfluence
-
 Quantum computing is no longer a distant theoretical promise. It is rapidly becoming a transformative technology with profound implications for science, industry, and society. Recently, I had the opportunity to visit a top 
 innovation startup - [Quanfluence](https://quanfluence.com/), established in 2021, is a pioneering photonic quantum computing company in Bangalore, India, and to witness firsthand how abstract concepts of quantum physics are being translated into tangible hardware.
 
