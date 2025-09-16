@@ -11,7 +11,9 @@ innovation startup - [Quanfluence](https://quanfluence.com/), established in 202
 Mr [Biman Chattopadhyay](https://www.linkedin.com/in/biman-chattopadhyay-532a6753/?originalSubdomain=in) and his team at [Quanfluence](https://quanfluence.com/) shared very insightful information and enthusiastically walked me through their laboratory. As a Physicist and Deep Tech professional, I found the experience particularly insightful: 
 it offered a rare glimpse into how cutting-edge experiments in quantum optics are converging with scalable engineering, and how these developments resonate both with academic research and industrial needs.
 
-## Quantum Principles in Action
+---
+
+### Quantum Principles in Action
 
 At its core, quantum information science is built on principles that redefine what computation can achieve.
 
@@ -33,7 +35,9 @@ machines. At the same time, boson sampling provides a near-term benchmark of pho
 
 These principles, which I once approached in purely theoretical contexts, were now presented as active research avenues with tangible engineering pathways.
 
-## From Abstract Physics to Quantum Hardware
+---
+
+### From Abstract Physics to Quantum Hardware
 
 At Quanfluence, two complementary approaches illustrate this transition from principle to practice:
 
@@ -64,7 +68,9 @@ They showed us the earlier variants of the machine and how it has evolved from a
 
 *Together, these setups represent both scalability and flexibility: the chip-based systems lean toward industrial readiness, while the breadboards enable exploratory research.*
 
-## Why Quantum Computing Matters
+---
+
+### Why Quantum Computing Matters
 
 Quantum computing matters because it addresses problems that classical machines cannot solve efficiently. By leveraging superposition and entanglement, quantum systems explore enormous solution spaces in parallel, offering an advantage where 
 complexity explodes exponentially.
@@ -78,7 +84,9 @@ complexity explodes exponentially.
 
 *For academia, these opportunities create fertile ground for new algorithms, models, and theoretical advances. For industry, they represent emerging markets and competitive advantages in sectors from finance to pharmaceuticals.*
 
-## Bridging Physics and Industry
+---
+
+### Bridging Physics and Industry
 
 As a Physicist, what struck me most during my visit to Quanfluence was the ***fusion of theory and engineering***. How the principles of quantum physics, once confined to abstract mathematics, are now being reframed as solutions to global challenges.
 
@@ -95,7 +103,9 @@ Companies like Quanfluence demonstrate how fundamental research and applied engi
 *For researchers, it’s a call to innovate. For industries, it’s a chance to adopt early and lead. And for professionals like me who straddle the line between theory and application, it’s a reminder that the future of deep tech lies in building bridges 
 between physics and engineering, research and product, academia and the market.*
 
-## Closing Thoughts
+---
+
+### Closing Thoughts
 Visiting Quanfluence underscored for me that we are standing at the edge of a technological shift. Quantum computing is not merely an academic curiosity - it is rapidly becoming a driver of economic, medical, and societal transformation.
 
 For me, as someone who began with equations on a blackboard, witnessing photons inside chips reminded me that the future of deep tech belongs to those who dare to bridge theory and practice.
