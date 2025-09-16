@@ -11,6 +11,7 @@ innovation startup - [Quanfluence](https://quanfluence.com/), established in 202
 Mr [Biman Chattopadhyay](https://www.linkedin.com/in/biman-chattopadhyay-532a6753/?originalSubdomain=in) and his team at [Quanfluence](https://quanfluence.com/) shared very insightful information and enthusiastically walked me through their laboratory. As a Physicist and Deep Tech professional, I found the experience particularly insightful: 
 it offered a rare glimpse into how cutting-edge experiments in quantum optics are converging with scalable engineering, and how these developments resonate both with academic research and industrial needs.
 
+![Picture](/assets/images/IMG-20250801-WA0010.jpg "Quanfluence Micro Chip")
 ---
 
 ### Quantum Principles in Action
@@ -63,7 +64,7 @@ The principle of the Ising Machine is driven by spin systems. A physical system 
 their interaction defines the problem statement.
 
 A photonic Ising machine is a quantum-inspired hardware that solves the Ising problem by starting from a random high-energy state and settling towards the lowest energy state. The Quanfluence photonic Ising machine does exactly that. I had seen the 
-Quanfluence Ising machine at the [QIB 2025](https://quantumindiabengaluru.com/).
+Quanfluence Ising machine at the [Quantum India Bangalore Summit 2025](https://quantumindiabengaluru.com/).
 ![Micro chip product](/assets/images/V2_1.jpg "Quanfluence Micro Chip")
 
 In the lab, I got to see their development flow. There is an **FPGA system** which is hooked up to an **optical system with custom circuits** built at Quanfluence lab. I could clearly trace the path of the gain dissipative loop inside the hardware box. 
@@ -111,8 +112,9 @@ between physics and engineering, research and product, academia and the market.*
 ### Closing Thoughts
 Visiting Quanfluence underscored for me that we are standing at the edge of a technological shift. Quantum computing is not merely an academic curiosity - it is rapidly becoming a driver of economic, medical, and societal transformation.
 
-For me, as someone who began with equations on a blackboard, witnessing photons inside chips reminded me that the future of deep tech belongs to those who dare to bridge theory and practice.
-![Picture](/assets/images/IMG-20250801-WA0010.jpg "Quanfluence Micro Chip")
+For me, as someone who began with equations on a blackboard, witnessing photons inside chips reminded me that the future of deep tech belongs to those who dare to bridge theory and practice. As nobel laureate [Dr. David Gross](https://www.nobelprize.org/prizes/physics/2004/gross/biographical/) rightly said at QIB 2025, the fact that I witnessed all this happen in my home country, India, made it even more inspiring!
+
+![Conference](/assets/images/20250801_102539.jpg "India growth")
 
 Quantum computing will not only redefine the limits of computation but also the way we approach complex problems across disciplines.
 
