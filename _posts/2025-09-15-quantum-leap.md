@@ -12,6 +12,7 @@ Mr [Biman Chattopadhyay](https://www.linkedin.com/in/biman-chattopadhyay-532a675
 it offered a rare glimpse into how cutting-edge experiments in quantum optics are converging with scalable engineering, and how these developments resonate both with academic research and industrial needs.
 
 ![Picture](/assets/images/IMG-20250801-WA0010.jpg "Quanfluence Micro Chip")
+
 ---
 
 ### Quantum Principles in Action
