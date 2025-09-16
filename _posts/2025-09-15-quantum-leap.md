@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Quantum Frontiers: Reflections from my visit to Quanfluence"
+date: 2025-09-17
+permalink: /blog/quantum-leap/
+---
+
 # Quantum Frontiers: Reflections from my visit to Quanfluence
 
 Quantum computing is no longer a distant theoretical promise. It is rapidly becoming a transformative technology with profound implications for science, industry, and society. Recently, I had the opportunity to visit a top 
