@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quantum Frontiers: Reflections from my visit to Quanfluence"
-date: 2025-09-17
+date: 2025-09-16
 permalink: /blog/quantum-leap/
 ---
 
