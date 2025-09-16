@@ -2,6 +2,9 @@ theme: minima
 title: Congnition Bytes by Dyutideepta
 description: Physics-Informed AI | Vision Systems | Cross-Disciplinary Innovation
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
 
 collections:
   posts:
