@@ -9,23 +9,32 @@
     background: none;
     border: none;
     cursor: pointer;
+    z-index: 1100; /* ensures it stays above nav */
   }
   @media (max-width: 768px) {
+    .site-header .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative; /* positioning context for absolute nav */
+    }
     .site-nav {
       display: none;
+      position: absolute;
+      top: 100%;  /* just below header */
+      right: 0;
+      width: 200px; /* adjust as needed */
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
       flex-direction: column;
       gap: 0;
+      z-index: 1000;
     }
     .site-nav.show {
       display: flex;
     }
     .menu-toggle {
       display: block;
-    }
-    .site-header .wrapper {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
     }
   }
 </style>
@@ -37,7 +46,7 @@
     </h1>
 
     <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
-      &#9776;
+      ☰
     </button>
 
     <nav class="site-nav" id="primary-nav">
