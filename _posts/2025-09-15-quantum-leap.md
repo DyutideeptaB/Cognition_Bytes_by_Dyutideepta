@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quantum Frontiers: Reflections from my visit to Quanfluence"
-date: 2025-09-16
+date: 2025-09-22
 permalink: /blog/quantum-leap/
 ---
 
@@ -38,7 +38,7 @@ Beyond these foundations, advanced states such as cat states and cluster states 
 Of course, the elegance of these principles comes with significant challenges. Noise, decoherence, and the need for error correction remain central concerns, with strategies like surface codes and thermal stabilisation paving the way toward scalable 
 machines. At the same time, boson sampling provides a near-term benchmark of photonic advantage, highlighting how light itself becomes a natural substrate for quantum computation.
 
-These principles, which I once approached in purely theoretical contexts, were now presented as active research avenues with tangible engineering pathways.
+### *These principles, which I once approached in purely theoretical contexts, were now presented as active research avenues with tangible engineering pathways.*
 
 ---
 
@@ -59,6 +59,7 @@ electronics industry has scaled over decades, starting from vacuum tubes to inte
 ### Photonic Ising Machines 
 
 This part of the lab is where I could see how the full table top set-up gets squeezed down into a small **~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip**.
+
 ![Micro Chip Lab](/assets/images/PXL_20241210_133417904.PORTRAIT.jpg "Quanfluence Lab")
 
 The principle of the Ising Machine is driven by spin systems. A physical system containing an ensemble of interacting spins tends to settle to the **lowest energy state**. This maps to an optimisation problem where each decision variable is a spin and 
@@ -88,15 +89,7 @@ complexity explodes exponentially.
 - **Cybersecurity:** While quantum algorithms threaten current encryption standards, quantum key distribution and post-quantum cryptography provide new frameworks for secure communication.
 - **Optimisation:** From supply chain logistics to financial portfolio management, quantum-inspired algorithms can accelerate decision-making in environments with countless possibilities.
 
-### *For academia, these opportunities create fertile ground for new algorithms, models, and theoretical advances. For industry, they represent emerging markets and competitive advantages in sectors from finance to pharmaceuticals.* 
-
-<center>
-<strong><em>
-For academia, these opportunities create fertile ground for new algorithms, models, and theoretical advances. For industry, they represent emerging markets and competitive advantages in sectors from finance to pharmaceuticals.
-</em></strong>
-</center>
-
-
+*For academia, these opportunities create fertile ground for new algorithms, models, and theoretical advances. For industry, they represent emerging markets and competitive advantages in sectors from finance to pharmaceuticals.* 
 
 ---
 
