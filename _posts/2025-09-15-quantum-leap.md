@@ -121,3 +121,7 @@ For me, as someone who began with equations on a blackboard, witnessing photons 
 Quantum computing will not only redefine the limits of computation but also the way we approach complex problems across disciplines.
 
 ### *Observing these efforts up close reaffirmed for me that the quantum revolution is no longer theoretical.* ***It is unfolding, photon by photon, qubit by qubit, breakthrough by breakthrough.***
+
+---
+
+✍️ *Have thoughts on this? I’d love to hear your perspective on the upcoming Quantum leap. Drop me a message or connect on [LinkedIn](https://www.linkedin.com/in/dyutideepta-banerjee).*
