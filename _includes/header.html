@@ -9,21 +9,21 @@
     background: none;
     border: none;
     cursor: pointer;
-    z-index: 1100; /* ensures it stays above nav */
+    z-index: 1100;
   }
   @media (max-width: 768px) {
     .site-header .wrapper {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      position: relative; /* positioning context for absolute nav */
+      position: relative;
     }
     .site-nav {
       display: none;
       position: absolute;
-      top: 100%;  /* just below header */
+      top: 100%;
       right: 0;
-      width: 200px; /* adjust as needed */
+      width: 200px;
       background: white;
       box-shadow: 0 2px 8px rgba(0,0,0,0.2);
       flex-direction: column;
@@ -38,17 +38,14 @@
     }
   }
 </style>
-
 <header class="site-header">
   <div class="wrapper">
     <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </h1>
-
     <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
       ☰
     </button>
-
     <nav class="site-nav" id="primary-nav">
       {% for item in site.nav %}
         <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
