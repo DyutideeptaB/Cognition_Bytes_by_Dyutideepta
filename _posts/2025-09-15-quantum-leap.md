@@ -88,7 +88,15 @@ complexity explodes exponentially.
 - **Cybersecurity:** While quantum algorithms threaten current encryption standards, quantum key distribution and post-quantum cryptography provide new frameworks for secure communication.
 - **Optimisation:** From supply chain logistics to financial portfolio management, quantum-inspired algorithms can accelerate decision-making in environments with countless possibilities.
 
-*For academia, these opportunities create fertile ground for new algorithms, models, and theoretical advances. For industry, they represent emerging markets and competitive advantages in sectors from finance to pharmaceuticals.*
+### *For academia, these opportunities create fertile ground for new algorithms, models, and theoretical advances. For industry, they represent emerging markets and competitive advantages in sectors from finance to pharmaceuticals.* 
+
+<center>
+<strong><em>
+For academia, these opportunities create fertile ground for new algorithms, models, and theoretical advances. For industry, they represent emerging markets and competitive advantages in sectors from finance to pharmaceuticals.
+</em></strong>
+</center>
+
+
 
 ---
 
@@ -106,18 +114,17 @@ The road ahead is not without obstacles. Fragile states must be stabilised, erro
 
 Companies like Quanfluence demonstrate how fundamental research and applied engineering can come together to position India within the global quantum ecosystem.
 
-*For researchers, it’s a call to innovate. For industries, it’s a chance to adopt early and lead. And for professionals like me who straddle the line between theory and application, it’s a reminder that the future of deep tech lies in building bridges 
-between physics and engineering, research and product, academia and the market.*
+### *For researchers, it’s a call to innovate. For industries, it’s a chance to adopt early and lead. And for professionals like me who straddle the line between theory and application, it’s a reminder that the future of deep tech lies in building bridges between physics and engineering, research and product, academia and the market.*
 
 ---
 
 ### Closing Thoughts
 Visiting Quanfluence underscored for me that we are standing at the edge of a technological shift. Quantum computing is not merely an academic curiosity - it is rapidly becoming a driver of economic, medical, and societal transformation.
 
-For me, as someone who began with equations on a blackboard, witnessing photons inside chips reminded me that the future of deep tech belongs to those who dare to bridge theory and practice. As the nobel laureate [Dr. David Gross](https://www.nobelprize.org/prizes/physics/2004/gross/biographical/) rightly said at QIB 2025, the fact that I witnessed all this happen in my home country, India, made it even more inspiring!
+For me, as someone who began with equations on a blackboard, witnessing photons inside chips reminded me that the future of deep tech belongs to those who dare to bridge theory and practice. As the nobel laureate [Dr. David Gross](https://www.nobelprize.org/prizes/physics/2004/gross/biographical/) rightly said at QIB 2025, and the fact that I witnessed all this happen in my home country, India, made it even more inspiring!
 
 ![Conference](/assets/images/20250801_102539.jpg "India growth")
 
 Quantum computing will not only redefine the limits of computation but also the way we approach complex problems across disciplines.
 
-*Observing these efforts up close reaffirmed for me that the quantum revolution is no longer theoretical.* ***It is unfolding, photon by photon, qubit by qubit, breakthrough by breakthrough.***
+### *Observing these efforts up close reaffirmed for me that the quantum revolution is no longer theoretical.* ***It is unfolding, photon by photon, qubit by qubit, breakthrough by breakthrough.***
