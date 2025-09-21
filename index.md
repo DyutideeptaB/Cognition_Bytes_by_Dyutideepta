@@ -33,8 +33,6 @@ title: ""
   }
 
   .site-nav {
-    float: none !important;          /* ✅ Cancel Minima’s float */
-    position: relative !important;   /* ✅ Reset layout */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
