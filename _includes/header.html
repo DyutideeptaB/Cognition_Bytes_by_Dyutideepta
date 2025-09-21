@@ -1,10 +1,46 @@
+<style>
+  .site-nav {
+    display: flex;
+    gap: 1em;
+  }
+  .menu-toggle {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .site-nav {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+    }
+    .site-nav.show {
+      display: flex;
+    }
+    .menu-toggle {
+      display: block;
+    }
+    .site-header .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+</style>
+
 <header class="site-header">
   <div class="wrapper">
     <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </h1>
 
-    <nav class="site-nav">
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
+      &#9776;
+    </button>
+
+    <nav class="site-nav" id="primary-nav">
       {% for item in site.nav %}
         <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
       {% endfor %}
