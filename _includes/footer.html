@@ -1,23 +1,24 @@
 <style>
-.site-footer .wrapper > div {
-  display: flex;
-  justify-content: space-between;
-  color: #888888;
-  font-size: 0.9em;
-  flex-wrap: wrap;
-}
-
-@media (max-width: 600px) {
-  .site-footer .wrapper > div {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5em;
+  .site-footer {
+    padding: 1em 0;
   }
-
+  .site-footer .wrapper > div {
+    display: flex;
+    justify-content: space-between;
+    color: #888888;
+    font-size: 0.9em;
+    flex-wrap: wrap;
+  }
   .site-footer .wrapper span {
     text-align: center;
   }
-}
+  @media (max-width: 600px) {
+    .site-footer .wrapper > div {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5em;
+    }
+  }
 </style>
 <footer class="site-footer" style="border-top: 1px solid #ddd;">
   <div class="wrapper">
@@ -28,3 +29,16 @@
     </div>
   </div>
 </footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const nav = document.getElementById("primary-nav");
+
+    menuToggle.addEventListener("click", function() {
+      const expanded = this.getAttribute("aria-expanded") === "true" || false;
+      this.setAttribute("aria-expanded", !expanded);
+      nav.classList.toggle("show");
+    });
+  });
+</script>
