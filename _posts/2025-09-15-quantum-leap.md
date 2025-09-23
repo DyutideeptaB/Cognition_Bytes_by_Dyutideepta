@@ -5,18 +5,12 @@ date: 2025-09-21
 permalink: /blog/quantum-leap/
 ---
 <p align="center">
-  <img src="/assets/images/QM_featureimg.png"
+  <img src="/assets/images/QM_featureimg4.png"
        alt="QM Feature image"
-       style="width: 500px; height: 500 px;">
-</p>
-
-<p align="center" style="font-size: 0.9em; margin-top: -0.5em;">
-  <em>Quantum computing illustration with Ising spin model and photonics.</em><br>
+       style="width: auto; height: auto;">
 </p>
 
 <div style="margin-top: 50px;"></div>
-
-
 
 ### ⚛️ *Quantum computing is no longer a distant theoretical promise. It is rapidly becoming a transformative technology with profound implications for science, industry, and society.*
 
