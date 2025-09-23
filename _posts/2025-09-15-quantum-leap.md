@@ -10,8 +10,6 @@ permalink: /blog/quantum-leap/
        style="width: auto; height: auto;">
 </p>
 
-<div style="margin-top: 50px;"></div>
-
 ### ⚛️ *Quantum computing is no longer a distant theoretical promise. It is rapidly becoming a transformative technology with profound implications for science, industry, and society.*
 
 ---
