@@ -23,8 +23,6 @@ it offered a rare glimpse into how cutting-edge experiments in quantum optics ar
        style="width: 800px; height: 800 px;">
 </p>
 
-<div style="margin-top: 50px;"></div>
-
 ---
 
 ### ⚖️ Quantum Principles in Action
@@ -69,8 +67,6 @@ At Quanfluence, two complementary approaches illustrate this transition from pri
   <em>Optical Breadboard Setup at Quanfluence Lab</em><br>
 </p>
 
-<div style="margin-top: 50px;"></div>
-
 Here, mirrors, lenses, and nonlinear crystals are aligned to create effectively infinite light paths. Photons undergo multiple reflections, extending their interaction lengths; ideal for generating entanglement, reducing noise in the quantum spectrum, 
 and testing fundamental quantum optical phenomena.
 
@@ -90,8 +86,6 @@ This part of the lab is where I could see how the full table top set-up gets squ
   <em>Micro Chip Lab</em><br>
 </p>
 
-<div style="margin-top: 50px;"></div
-
 The principle of the Ising Machine is driven by spin systems. A physical system containing an ensemble of interacting spins tends to settle to the **lowest energy state**. This maps to an optimisation problem where each decision variable is a spin and 
 their interaction defines the problem statement.
 
@@ -106,8 +100,6 @@ Quanfluence Ising machine at the [Quantum India Bangalore Summit 2025](https://q
 <p align="center" style="font-size: 0.9em; margin-top: -0.5em;">
   <em>Quanfluence Micro Chip</em><br>
 </p>
-
-<div style="margin-top: 50px;"></div
 
 In the lab, I got to see their development flow. There is an **FPGA system** which is hooked up to an **optical system with custom circuits** built at Quanfluence lab. I could clearly trace the path of the gain dissipative loop inside the hardware box. 
 They showed us the earlier variants of the machine and how it has evolved from a lab prototype to a full-fledged rack-mountable machine.
