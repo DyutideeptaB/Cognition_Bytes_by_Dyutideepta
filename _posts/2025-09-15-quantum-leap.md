@@ -4,6 +4,19 @@ title: "Quantum Frontiers: Reflections from my visit to Quanfluence"
 date: 2025-09-21
 permalink: /blog/quantum-leap/
 ---
+<p align="center">
+  <img src="/assets/images/QM_featureimg.png"
+       alt="QM Feature image"
+       style="width: 500px; height: 500 px;">
+</p>
+
+<p align="center" style="font-size: 0.9em; margin-top: -0.5em;">
+  <em>Quantum computing illustration with Ising spin model and photonics.</em><br>
+</p>
+
+<div style="margin-top: 50px;"></div>
+
+
 
 ### ⚛️ *Quantum computing is no longer a distant theoretical promise. It is rapidly becoming a transformative technology with profound implications for science, industry, and society.*
 
@@ -12,7 +25,13 @@ permalink: /blog/quantum-leap/
 Recently, I had the opportunity to visit a top innovation startup - [Quanfluence](https://quanfluence.com/), established in 2021, is a pioneering photonic quantum computing company in Bangalore, India, and to witness firsthand how abstract concepts of quantum physics are being translated into tangible hardware. Mr [Biman Chattopadhyay](https://www.linkedin.com/in/biman-chattopadhyay-532a6753/?originalSubdomain=in) and his team at [Quanfluence](https://quanfluence.com/) shared very insightful information and enthusiastically walked me through their laboratory. As a Physicist and Deep Tech professional, I found the experience particularly insightful: 
 it offered a rare glimpse into how cutting-edge experiments in quantum optics are converging with scalable engineering, and how these developments resonate both with academic research and industrial needs.
 
-![Picture](/assets/images/IMG-20250801-WA0010.jpg "Quanfluence Micro Chip")
+<p align="center">
+  <img src="/assets/images/IMG-20250801-WA0010.jpg"
+       alt="Quanfluence Pic"
+       style="width: 800px; height: 800 px;">
+</p>
+
+<div style="margin-top: 50px;"></div>
 
 ---
 
@@ -49,7 +68,16 @@ At Quanfluence, two complementary approaches illustrate this transition from pri
 
 ### Optical Breadboard Setups 
 
-![Optical Breadboard Setup](/assets/images/TableTop.jpg "Optical Breadboard Setup at Quanfluence Lab")
+<p align="center">
+  <img src="/assets/images/TableTop.jpg"
+       alt="Optical Breadboard Setup"
+       style="width: 900px; height: 900 px;">
+</p>
+<p align="center" style="font-size: 0.9em; margin-top: -0.5em;">
+  <em>Optical Breadboard Setup at Quanfluence Lab</em><br>
+</p>
+
+<div style="margin-top: 50px;"></div>
 
 Here, mirrors, lenses, and nonlinear crystals are aligned to create effectively infinite light paths. Photons undergo multiple reflections, extending their interaction lengths; ideal for generating entanglement, reducing noise in the quantum spectrum, 
 and testing fundamental quantum optical phenomena.
@@ -61,7 +89,16 @@ electronics industry has scaled over decades, starting from vacuum tubes to inte
 
 This part of the lab is where I could see how the full table top set-up gets squeezed down into a small **~100 micron circuit on a 0.5mm x 0.5mm photonic integrated chip**.
 
-![Micro Chip Lab](/assets/images/PXL_20241210_133417904.PORTRAIT.jpg "Quanfluence Lab")
+<p align="center">
+  <img src="/assets/images/PXL_20241210_133417904.PORTRAIT.jpg"
+       alt="Quanfluence Lab"
+       style="width: 900px; height: 900 px;">
+</p>
+<p align="center" style="font-size: 0.9em; margin-top: -0.5em;">
+  <em>Micro Chip Lab</em><br>
+</p>
+
+<div style="margin-top: 50px;"></div
 
 The principle of the Ising Machine is driven by spin systems. A physical system containing an ensemble of interacting spins tends to settle to the **lowest energy state**. This maps to an optimisation problem where each decision variable is a spin and 
 their interaction defines the problem statement.
@@ -69,7 +106,16 @@ their interaction defines the problem statement.
 A photonic Ising machine is a quantum-inspired hardware that solves the Ising problem by starting from a random high-energy state and settling towards the lowest energy state. The Quanfluence photonic Ising machine does exactly that. I had seen the 
 Quanfluence Ising machine at the [Quantum India Bangalore Summit 2025](https://quantumindiabengaluru.com/).
 
-![Micro chip product](/assets/images/V2_1.jpg "Quanfluence Micro Chip")
+<p align="center">
+  <img src="/assets/images/V2_1.jpg"
+       alt="Micro chip product"
+       style="width: 900px; height: 900 px;">
+</p>
+<p align="center" style="font-size: 0.9em; margin-top: -0.5em;">
+  <em>Quanfluence Micro Chip</em><br>
+</p>
+
+<div style="margin-top: 50px;"></div
 
 In the lab, I got to see their development flow. There is an **FPGA system** which is hooked up to an **optical system with custom circuits** built at Quanfluence lab. I could clearly trace the path of the gain dissipative loop inside the hardware box. 
 They showed us the earlier variants of the machine and how it has evolved from a lab prototype to a full-fledged rack-mountable machine.
