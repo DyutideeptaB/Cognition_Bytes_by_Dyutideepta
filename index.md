@@ -108,4 +108,4 @@ title: ""
   Deep learning for planetary feature detection with GUI & spectral imaging
 - [🔐 Encrypted QR generator with Decryption algorithm](./Project/qr_generator_algorithms/)  
   Industrial-grade Python toolkit for data tagging & visual security
-More coming soon: medical imaging, motion tracking, vision pipelines.
+
