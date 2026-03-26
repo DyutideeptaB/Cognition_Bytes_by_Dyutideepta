@@ -209,3 +209,10 @@ Physics + AI \| Simulation Driven Systems \| Computer Vision
 This project demonstrates how **coordinated robotic behaviour can emerge
 purely from perception-driven feedback**, without centralised control.
 
+<div style="display: flex; justify-content: flex-start; align-items: center; max-width: 800px; margin: 10px auto; font-size: 0.95em;">
+  <a href="https://github.com/DyutideeptaB/Dual-Arm_Robotic_System_Synchronisation" target="_blank" style="text-decoration: none; color: #007bff; display: flex; align-items: center;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="20" height="20" style="margin-right: 6px;">
+    View GitHub Repository
+  </a>
+</div>
+
