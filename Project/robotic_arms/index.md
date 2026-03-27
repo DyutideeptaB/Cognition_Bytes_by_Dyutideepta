@@ -10,7 +10,7 @@ permalink: /Project/robotic_arms/
 
 ------------------------------------------------------------------------
 
-## 📌 Overview
+### 📌 Overview
 
 This project implements a **dual-arm robotic system** in simulation, where:
 
@@ -28,7 +28,7 @@ The primary task involves: - Picking a cube using visual estimation
 
 ------------------------------------------------------------------------
 
-## 🧠 Core Contributions
+### 🧠 Core Contributions
 
 -   🔄 **Decentralised dual-arm coordination**
 -   👁️ **Visual servoing using image-space error**
@@ -39,7 +39,7 @@ The primary task involves: - Picking a cube using visual estimation
 
 ------------------------------------------------------------------------
 
-## 🏗️ System Architecture
+### 🏗️ System Architecture
 
             Camera (Franka - Eye-in-Hand)
                         │
@@ -63,16 +63,16 @@ The primary task involves: - Picking a cube using visual estimation
 
 ------------------------------------------------------------------------
 
-## ⚙️ Mathematical Foundations
+### ⚙️ Mathematical Foundations
 
-### 📌 Infinity Trajectory (Lissajous Curve)
+#### 📌 Infinity Trajectory (Lissajous Curve)
 
     y(t) = C_Y + A_Y sin(ωt)
     z(t) = C_Z + A_Z sin(2ωt)
 
 ------------------------------------------------------------------------
 
-### 📌 Visual Servoing Control
+#### 📌 Visual Servoing Control
 
 Pixel error:
 
@@ -91,9 +91,9 @@ Jacobian-based control:
 
 ------------------------------------------------------------------------
 
-## 🔄 Control Logic
+### 🔄 Control Logic
 
-### 🦾 UR3 (Worker Arm)
+#### 🦾 UR3 (Worker Arm)
 
 Finite state machine:
 
@@ -108,22 +108,22 @@ Smoothing:
 
 ------------------------------------------------------------------------
 
-### 👁️ Franka (Observer Arm)
+#### 👁️ Franka (Observer Arm)
 
-### Detection Pipeline
+#### Detection Pipeline
 
 -   RGB → HSV conversion
 -   Red colour thresholding
 -   Centroid detection
 
-#### Tracking States
+##### Tracking States
 
 -   SEARCH
 -   TRACKING
 -   TEMP_LOST
 -   LOST
 
-#### Control
+##### Control
 
 -   Pixel error → velocity
 -   Jacobian inverse
@@ -131,16 +131,16 @@ Smoothing:
 
 ------------------------------------------------------------------------
 
-## 📦 Movement_with_logs.py (Enhanced Implementation)
+### 📦 Movement_with_logs.py (Enhanced Implementation)
 
-### 📊 Logging System
+#### 📊 Logging System
 
 -   Pixel error: `e_x(t), e_y(t)`
 -   End-effector error: `e_EE(t) = || p_EE(t) - p_ref(t) ||`
 
 ------------------------------------------------------------------------
 
-### 🔁 Stability Improvements
+#### 🔁 Stability Improvements
 
 -   First-order smoothing
 -   Buffered cube position estimation
@@ -148,7 +148,7 @@ Smoothing:
 
 ------------------------------------------------------------------------
 
-### 🧩 Robustness Features
+#### 🧩 Robustness Features
 
 -   Handles noisy detections
 -   Handles occlusions
@@ -157,7 +157,7 @@ Smoothing:
 
 ------------------------------------------------------------------------
 
-## 🚀 Tech Stack
+### 🚀 Tech Stack
 
 -   Python
 -   PyBullet
@@ -166,7 +166,7 @@ Smoothing:
 
 ------------------------------------------------------------------------
 
-## ▶️ How to Run
+### ▶️ How to Run
 
 ``` bash
 git clone https://github.com/DyutideeptaB/Dual-Arm_Robotic_System_Synchronisation.git
@@ -177,7 +177,7 @@ python Final_with_logs.py
 
 ------------------------------------------------------------------------
 
-## 📊 Outputs
+### 📊 Outputs
 
 -   Pixel error vs time
 -   End-effector tracking error
@@ -185,7 +185,7 @@ python Final_with_logs.py
 
 ------------------------------------------------------------------------
 
-## 🔬 Applications
+### 🔬 Applications
 
 -   Collaborative robotics
 -   Industrial automation
@@ -194,7 +194,7 @@ python Final_with_logs.py
 
 ------------------------------------------------------------------------
 
-## 📈 Future Work
+### 📈 Future Work
 
 -   Reinforcement learning integration
 -   Real robot deployment
@@ -203,14 +203,14 @@ python Final_with_logs.py
 
 ------------------------------------------------------------------------
 
-## 👤 Author
+### 👤 Author
 
 **Dyutideepta Banerjee**\
 Physics + AI \| Simulation Driven Systems \| Computer Vision
 
 ------------------------------------------------------------------------
 
-## ⭐ Final Note
+### ⭐ Final Note
 
 This project demonstrates how **coordinated robotic behaviour can emerge
 purely from perception-driven feedback**, without centralised control.
