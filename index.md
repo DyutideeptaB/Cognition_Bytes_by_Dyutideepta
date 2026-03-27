@@ -96,8 +96,8 @@ title: ""
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="20" height="20">
     GitHub
   </a>
-  <a href="https://dyutideeptab.github.io/Cognition_Bytes_by_Dyutideepta/assets/DyutideeptaBanerjee_CV.pdf" target="_blank">
-    <span style="font-size: 18px;">📄</span>&nbsp;View My CV
+  <a href="https://dyutideeptab.github.io/Cognition_Bytes_by_Dyutideepta/assets/DyutideeptaBanerjee_Resume.pdf" target="_blank">
+    <span style="font-size: 18px;">📄</span>&nbsp;View My Resume
   </a>
 </div>
 
