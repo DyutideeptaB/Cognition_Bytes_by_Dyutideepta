@@ -1,6 +1,12 @@
+---
+layout: page
+title: ""
+permalink: /Project/robotic_arms/
+---
+
 # 🤖 Dual-Arm Robotic System Synchronisation
 
-### Visual-Guided Decentralised Coordination in PyBullet
+## Visual-Guided Decentralised Coordination in PyBullet
 
 ------------------------------------------------------------------------
 
@@ -104,7 +110,7 @@ Smoothing:
 
 ### 👁️ Franka (Observer Arm)
 
-#### Detection Pipeline
+### Detection Pipeline
 
 -   RGB → HSV conversion
 -   Red colour thresholding
